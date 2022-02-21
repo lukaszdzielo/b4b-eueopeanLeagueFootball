@@ -22,15 +22,15 @@ $black: #000 !default;
 // fusv-disable
 // scss-docs-start gray-colors-map
 $grays: (
-//   "100": $gray-100,
-//   "200": $gray-200,
-//   "300": $gray-300,
-//   "400": $gray-400,
-//   "500": $gray-500,
-//   "600": $gray-600,
-//   "700": $gray-700,
-//   "800": $gray-800,
-//   "900": $gray-900
+    //   "100": $gray-100,
+        //   "200": $gray-200,
+        //   "300": $gray-300,
+        //   "400": $gray-400,
+        //   "500": $gray-500,
+        //   "600": $gray-600,
+        //   "700": $gray-700,
+        //   "800": $gray-800,
+        //   "900": $gray-900
 ) !default;
 // scss-docs-end gray-colors-map
 // fusv-enable
@@ -51,42 +51,42 @@ $cyan: #0dcaf0 !default;
 // scss-docs-start colors-map
 $colors: (
     // "blue": $blue,
-    // "indigo": $indigo,
-    // "purple": $purple,
-    // "pink": $pink,
-    // "red": $red,
-    // "orange": $orange,
-    // "yellow": $yellow,
-    // "green": $green,
-    // "teal": $teal,
-    // "cyan": $cyan,
-    // "white": $white,
-    // "gray": $gray-600,
-    // "gray-dark": $gray-800,
+        // "indigo": $indigo,
+        // "purple": $purple,
+        // "pink": $pink,
+        // "red": $red,
+        // "orange": $orange,
+        // "yellow": $yellow,
+        // "green": $green,
+        // "teal": $teal,
+        // "cyan": $cyan,
+        // "white": $white,
+        // "gray": $gray-600,
+        // "gray-dark": $gray-800,
 ) !default;
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
-$success:       $green !default;
-$info:          $cyan !default;
-$warning:       $yellow !default;
-$danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-900 !default;
+$primary: $blue !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-900 !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-//   "primary":    $primary,
-//   "secondary":  $secondary,
-//   "success":    $success,
-//   "info":       $info,
-//   "warning":    $warning,
-//   "danger":     $danger,
-//   "light":      $light,
-//   "dark":       $dark
+    //   "primary":    $primary,
+        //   "secondary":  $secondary,
+        //   "success":    $success,
+        //   "info":       $info,
+        //   "warning":    $warning,
+        //   "danger":     $danger,
+        //   "light":      $light,
+        //   "dark":       $dark
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -97,6 +97,14 @@ $theme-colors: (
 // Prefix for :root CSS variables
 
 $variable-prefix: "" !default;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg: $white !default;
+$body-color: $gray-900 !default;
+$body-text-align: null !default;
 
 // Typography
 //
@@ -115,7 +123,7 @@ $font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
 $font-size-sm: $font-size-base * 0.875 !default;
 $font-size-lg: $font-size-base * 1.25 !default;
 
-$line-height-base:            1.4 !default;
+$line-height-base: 1.4 !default;
 
 $h1-font-size: $font-size-base * 2.125 !default;
 $h2-font-size: $font-size-base * 1.5 !default;
