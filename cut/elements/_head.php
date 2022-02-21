@@ -8,7 +8,8 @@
     <meta name="description" content="#" />
 
     <?php /* favicon */ ?>
-    <!-- <link rel="icon" href="assets/img/favicon/favicon.ico"> -->
+    <link rel="icon" type="image/svg+xml" href="../webroot/files/favicon/favicon.svg">
+    <link rel="icon" type="image/png" href="../webroot/files/favicon/favicon.png">
 
     <?php /* website styles */ ?>
     <link rel="stylesheet" href="../webroot/default/css/main.min.css">
