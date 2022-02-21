@@ -1,0 +1,23 @@
+@mixin truncate(
+    $font-size: $font-size-base,
+    $line-height: $line-height-base,
+    $lines-to-show: 2,
+    $boundary: 100%,
+    $static-height: true
+) {
+    display: block;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    max-width: $boundary;
+    text-overflow: ellipsis;
+    font-size: $font-size;
+    line-height: $line-height;
+    -webkit-line-clamp: $lines-to-show;
+    white-space: normal;
+    @if $static-height == true {
+        height: $font-size * $line-height * $lines-to-show !important;
+    } @else {
+        max-height: $font-size * $line-height * $lines-to-show;
+    }
+}

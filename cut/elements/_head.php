@@ -11,7 +11,7 @@
     <!-- <link rel="icon" href="assets/img/favicon/favicon.ico"> -->
 
     <?php /* website styles */ ?>
-    <link rel="stylesheet" href="../default/css/dist/main.min.css">
+    <link rel="stylesheet" href="../webroot/default/css/main.min.css">
 
   </script>
 </head>
