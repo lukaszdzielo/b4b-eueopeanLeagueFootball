@@ -1,7 +1,6 @@
 <?php include 'elements/_html_start.php' ?>
 
 <?php include 'elements/_head.php' ?>
-<?php include 'elements/_header.php' ?>
 
 <div>
 
@@ -12,7 +11,7 @@
         <?php include 'elements/top_bar.php' ?>
 
         <div class="container">
-            <h1>Dashboard</h1>
+            <h1 class="fw-bold">Dashboard</h1>
         </div>
     </main>
 

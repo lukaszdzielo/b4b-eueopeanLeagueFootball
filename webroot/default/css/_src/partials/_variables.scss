@@ -87,6 +87,8 @@ $theme-colors: (
         //   "danger":     $danger,
         //   "light":      $light,
         //   "dark":       $dark
+        "gray-primary": #18191a,
+    "gray-secondary": #252525
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -98,12 +100,20 @@ $theme-colors: (
 
 $variable-prefix: "" !default;
 
+// Gradient
+//
+// The gradient which is added to components if `$enable-gradients` is `true`
+// This gradient is also added to elements with `.bg-gradient`
+// scss-docs-start variable-gradient
+$gradient: "" !default;
+// scss-docs-end variable-gradient
+
 // Body
 //
 // Settings for the `<body>` element.
 
-$body-bg: $white !default;
-$body-color: $gray-900 !default;
+$body-bg: #18191a;
+$body-color: #ffffff;
 $body-text-align: null !default;
 
 // Typography
@@ -129,3 +139,10 @@ $h1-font-size: $font-size-base * 2.125 !default;
 $h2-font-size: $font-size-base * 1.5 !default;
 $h3-font-size: $font-size-base * 1.125 !default;
 $h4-font-size: $font-size-base * 1 !default;
+
+// Offcanvas
+
+// scss-docs-start offcanvas-variables
+$offcanvas-horizontal-width:        320px !default;
+$offcanvas-bg-color: #252525 !default;
+// scss-docs-end offcanvas-variables
