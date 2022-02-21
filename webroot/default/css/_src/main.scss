@@ -1,3 +1,44 @@
+/* lato-regular - latin */
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+        url("../fonts/Lato/lato-v22-latin-regular.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("../fonts/Lato/lato-v22-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lato-italic - latin */
+@font-face {
+    font-family: "Lato";
+    font-style: italic;
+    font-weight: 400;
+    src: local(""),
+        url("../fonts/Lato/lato-v22-latin-italic.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("../fonts/Lato/lato-v22-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lato-700 - latin */
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""),
+        url("../fonts/Lato/lato-v22-latin-700.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("../fonts/Lato/lato-v22-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lato-700italic - latin */
+@font-face {
+    font-family: "Lato";
+    font-style: italic;
+    font-weight: 700;
+    src: local(""),
+        url("../fonts/Lato/lato-v22-latin-700italic.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("../fonts/Lato/lato-v22-latin-700italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 @import "partials/variables";
 
 // Bootstrap Start
@@ -11,14 +52,14 @@
 // Layout & components
 @import "../../lib/bootstrap/scss/root";
 @import "../../lib/bootstrap/scss/reboot";
-@import "../../lib/bootstrap/scss/type";
-@import "../../lib/bootstrap/scss/images";
+// @import "../../lib/bootstrap/scss/type";
+// @import "../../lib/bootstrap/scss/images";
 @import "../../lib/bootstrap/scss/containers";
 // @import "../../lib/bootstrap/scss/grid";
 // @import "../../lib/bootstrap/scss/tables";
 @import "../../lib/bootstrap/scss/forms";
 @import "../../lib/bootstrap/scss/buttons";
-@import "../../lib/bootstrap/scss/transitions";
+// @import "../../lib/bootstrap/scss/transitions";
 // @import "../../lib/bootstrap/scss/dropdown";
 // @import "../../lib/bootstrap/scss/button-group";
 // @import "../../lib/bootstrap/scss/nav";
@@ -30,10 +71,10 @@
 // @import "../../lib/bootstrap/scss/badge";
 // @import "../../lib/bootstrap/scss/alert";
 // @import "../../lib/bootstrap/scss/progress";
-@import "../../lib/bootstrap/scss/list-group";
-@import "../../lib/bootstrap/scss/close";
+// @import "../../lib/bootstrap/scss/list-group";
+// @import "../../lib/bootstrap/scss/close";
 // @import "../../lib/bootstrap/scss/toasts";
-@import "../../lib/bootstrap/scss/modal";
+// @import "../../lib/bootstrap/scss/modal";
 // @import "../../lib/bootstrap/scss/tooltip";
 // @import "../../lib/bootstrap/scss/popover";
 // @import "../../lib/bootstrap/scss/carousel";
