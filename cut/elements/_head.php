@@ -17,6 +17,6 @@
   </script>
 </head>
 
-<body>
+<body class="d-lg-flex flex-nowrap">
 
     <?php include 'elements/_pages_list.php' ?>
