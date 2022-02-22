@@ -1,0 +1,111 @@
+.side_menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: var(--gray-secondary);
+    @include media-breakpoint-up(lg) {
+        flex: 0 0 320px;
+    }
+
+    .offcanvas {
+        @include font-size(1.125rem);
+        @include media-breakpoint-up(lg) {
+            visibility: visible !important;
+            transform: none !important;
+            flex: 0 0 auto !important;
+            flex-grow: 0;
+            transition: transform 0s;
+        }
+    }
+
+    .offcanvas-header {
+        align-items: flex-start;
+        @include media-breakpoint-up(lg) {
+            justify-content: center;
+        }
+        .navbar-brand {
+            margin: 0;
+            padding: 0;
+            img {
+                width: 100%;
+                max-width: 200px;
+            }
+        }
+        .btn-close {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            width: 2rem;
+            height: 2rem;
+            background: unset;
+            .icon {
+                width: 100%;
+                height: 100%;
+                fill: rgba(var(--white-rgb), 1);
+            }
+        }
+    }
+
+    .offcanvas-footer {
+        .nav-link {
+            @include font-size(0.75rem);
+            .icon {
+                &:not(.arrow) {
+                    margin-inline-end: 0.5rem;
+                    width: 1rem;
+                }
+            }
+        }
+    }
+
+    .nav-link {
+        display: flex;
+        align-items: center;
+        @include border-radius($border-radius-pill);
+        padding-inline-start: 1.5rem;
+        color: rgba(var(--white-rgb), 0.5);
+        .icon {
+            fill: rgba(var(--white-rgb), 0.5);
+            &:not(.arrow) {
+                margin-inline-end: 1.25rem;
+            }
+        }
+        :is(.arrow, .badge) {
+            margin-inline-start: auto;
+        }
+        &.active {
+            background: var(--secondary);
+            font-weight: bold;
+        }
+        &:is(.active, :hover) {
+            color: rgba(var(--white-rgb), 1);
+            .icon {
+                fill: rgba(var(--white-rgb), 1);
+            }
+        }
+    }
+
+    .nav-item + .nav-item {
+        margin-top: 0.5rem;
+    }
+
+    .dropdown ul {
+        padding-inline-start: 1.5rem;
+        @include font-size(1rem);
+        .nav-item {
+            margin-top: 0.5rem;
+        }
+    }
+
+    .badge {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include border-radius($border-radius-pill);
+        width: 1.5rem;
+        height: 1.5rem;
+        background: rgba(var(--quaternary-rgb), 1);
+        color: rgba(var(--white-rgb), 1);
+        @include font-size(0.75rem);
+    }
+}
