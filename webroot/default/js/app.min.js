@@ -7,3 +7,14 @@ window.addEventListener("resize", function() {
     }
 });
 //
+
+// notifications toast
+var toastTrigger = document.getElementById("notificationsBtn");
+var toastLiveExample = document.getElementById("notificationsToast");
+if (toastTrigger) {
+    toastTrigger.addEventListener("click", function() {
+        var toast = new bootstrap.Toast(toastLiveExample);
+        toast.show();
+    });
+}
+//

@@ -3,25 +3,33 @@
 // Variables should follow the `$component-state-property-size` formula for
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
-// Color system
+// Color system ~6
 
 // scss-docs-start gray-color-variables
 $white: #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
+$gray-400: #c4c4c4;
 $gray-500: #adb5bd !default;
+$gray-550: #828282;
 $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
+$gray-850: #252525;
 $gray-900: #212529 !default;
+$gray-950: #18191a;
 $black: #000 !default;
 // scss-docs-end gray-color-variables
 
 // fusv-disable
 // scss-docs-start gray-colors-map
-$grays: () !default;
+$grays: (
+    "400": $gray-400,
+    "550": $gray-550,
+    "850": $gray-850,
+    "950": $gray-950,
+) !default;
 // scss-docs-end gray-colors-map
 // fusv-enable
 
@@ -39,32 +47,31 @@ $cyan: #0dcaf0 !default;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
-$colors: () !default;
+$colors: (
+    "white":      $white,) !default;
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
-$primary: $blue !default;
-$secondary: $gray-600 !default;
-$success: $green !default;
-$info: $cyan !default;
-$warning: $yellow !default;
-$danger: $red !default;
-$light: $gray-100 !default;
-$dark: $gray-900 !default;
+// $primary: $blue !default;
+// $secondary: $gray-600 !default;
+// $success: $green !default;
+// $info: $cyan !default;
+// $warning: $yellow !default;
+// $danger: $red !default;
+// $light: $gray-100 !default;
+// $dark: $gray-900 !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
     "primary": #c80b12,
-    "secondary": #29A3EF,
-    "tertiary": #1CA051,
+    "secondary": #29a3ef,
+    "tertiary": #1ca051,
     "quaternary": #eb5757,
-    "gray-primary": #18191a,
-    "gray-secondary": #252525,
 ) !default;
 // scss-docs-end theme-colors-map
 
-// Options
+// Options ~336
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
@@ -72,7 +79,7 @@ $theme-colors: (
 
 $variable-prefix: "" !default;
 
-// Gradient
+// Gradient ~360
 //
 // The gradient which is added to components if `$enable-gradients` is `true`
 // This gradient is also added to elements with `.bg-gradient`
@@ -80,7 +87,7 @@ $variable-prefix: "" !default;
 $gradient: "" !default;
 // scss-docs-end variable-gradient
 
-// Spacing
+// Spacing ~368
 //
 // Control the default styling of most Bootstrap elements by modifying these
 // variables. Mostly focused on spacing.
@@ -112,15 +119,21 @@ $spacers: (
     20: $spacer * 5,
 ) !default;
 
-// Body
+// Body ~400
 //
 // Settings for the `<body>` element.
 
-$body-bg: #18191a;
-$body-color: #ffffff;
+$body-bg: $gray-950;
+$body-color: $white;
 $body-text-align: null !default;
 
-// Typography
+// Grid columns ~498
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-gutter-width: 2rem;
+
+// Typography ~571
 //
 // Font, line-height, and color for body text, headings, and more.
 
@@ -143,10 +156,40 @@ $h1-font-size: $font-size-base * 2.125 !default;
 $h2-font-size: $font-size-base * 1.5 !default;
 $h3-font-size: $font-size-base * 1.125 !default;
 $h4-font-size: $font-size-base * 1 !default;
+// scss-docs-end font-variables
 
-// Offcanvas
+// Buttons ~768
+//
+// For each of Bootstrap's buttons, define text, background, and border color.
+
+$btn-focus-width: none;
+$btn-focus-box-shadow: none;
+
+// Toasts ~1367
+
+// scss-docs-start toast-variables
+$toast-max-width: 400px !default;
+$toast-padding-x: 0.75rem;
+$toast-padding-y: 0;
+$toast-font-size: 1rem;
+$toast-color: var(--white);
+$toast-background-color: var(--gray-850);
+$toast-border-width: 0;
+// scss-docs-end toast-variables
+
+// Close ~1594
+
+// scss-docs-start close-variables
+$btn-close-focus-shadow: 0;
+$btn-close-opacity: 1;
+$btn-close-hover-opacity: 1;
+$btn-close-focus-opacity: 1;
+// scss-docs-end close-variables
+
+// Offcanvas ~1612
 
 // scss-docs-start offcanvas-variables
 $offcanvas-horizontal-width: 320px !default;
-$offcanvas-bg-color: #252525 !default;
+$offcanvas-bg-color: var(--gray-850);
+$offcanvas-border-width: 0;
 // scss-docs-end offcanvas-variables
