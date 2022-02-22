@@ -70,8 +70,11 @@
                 margin-inline-end: 1.25rem;
             }
         }
+        :is(.text) {
+            margin-inline-end: auto;
+        }
         :is(.arrow, .badge) {
-            margin-inline-start: auto;
+            margin-inline-start: 1.25rem;
         }
         &.active {
             background: var(--secondary);
@@ -101,6 +104,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex: 0 0 auto;
         @include border-radius($border-radius-pill);
         width: 1.5rem;
         height: 1.5rem;

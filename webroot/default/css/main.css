@@ -10247,9 +10247,12 @@ textarea.form-control-lg {
       .side_menu .nav-link .icon:not(.arrow) {
         -webkit-margin-end: 1.25rem;
                 margin-inline-end: 1.25rem; }
+    .side_menu .nav-link :is(.text) {
+      -webkit-margin-end: auto;
+              margin-inline-end: auto; }
     .side_menu .nav-link :is(.arrow, .badge) {
-      -webkit-margin-start: auto;
-              margin-inline-start: auto; }
+      -webkit-margin-start: 1.25rem;
+              margin-inline-start: 1.25rem; }
     .side_menu .nav-link.active {
       background: var(--secondary);
       font-weight: bold; }
@@ -10269,6 +10272,7 @@ textarea.form-control-lg {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 0 0 auto;
     border-radius: 50rem;
     width: 1.5rem;
     height: 1.5rem;
