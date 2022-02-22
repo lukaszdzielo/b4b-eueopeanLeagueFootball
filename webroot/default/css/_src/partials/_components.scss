@@ -1,0 +1,91 @@
+.toast {
+    @include border-radius($border-radius);
+    max-width: calc(100vw - 1.5rem);
+    background: var(--gray-850);
+    &-header {
+        padding: 0.75rem 1.5rem;
+        background: unset;
+        color: var(--white);
+    }
+    &-footer {
+        padding: 0.5rem;
+        text-align: center;
+        .btn-text {
+            @include font-size(1.125rem);
+            font-weight: bold;
+        }
+    }
+    .heading {
+        @include font-size(1.5rem);
+        font-weight: bold;
+    }
+    .news-item {
+        display: flex;
+        border-block-end: 1px solid var(--gray-400);
+        padding: 1rem 1.5rem;
+        .news-image {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            flex: 0 0 auto;
+            margin-inline-end: 0.75rem;
+            @include border-radius($border-radius);
+            padding: 0.25rem;
+            width: 3.5rem;
+            height: 3.5rem;
+            background: var(--secondary);
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        .news-content {
+            overflow: hidden;
+        }
+        :is(.title, .subtitle, .date) {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .title {
+            @include font-size(0.875rem);
+        }
+        .subtitle {
+            @include font-size(0.75rem);
+        }
+        .date {
+            margin-block-start: 0.25rem;
+            @include font-size(0.5rem);
+        }
+    }
+}
+
+.user .dropdown-menu {
+    border: 0;
+    padding: 0;
+    min-width: 200px;
+    overflow: hidden;
+    background: var(--gray-850);
+    .dropdown-item {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        color: rgba(var(--white-rgb), 0.5);
+        transition: $transition-base;
+        .icon {
+            fill: rgba(var(--white-rgb), 0.5);
+            transition: $transition-base;
+        }
+        &:hover {
+            background-color: unset;
+            color: var(--white);
+            .icon {
+                fill: var(--white);
+            }
+        }
+    }
+    .icon {
+        margin-inline-end: 0.75rem;
+    }
+}
