@@ -89,3 +89,37 @@
         margin-inline-end: 0.75rem;
     }
 }
+
+.team-short {
+    max-width: 220px;
+    @include font-size(1.125rem);
+    font-weight: bold;
+    .heading {
+        text-align: center;
+        margin-block-end: 0.25rem;
+    }
+    .image {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-block-end: 1.75rem;
+        @include border-radius($border-radius);
+        width: 100%;
+        height: 180px;
+        background: var(--secondary);
+        overflow: hidden;
+    }
+    ul {
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        li + li {
+            margin-block-start: 0.5rem;
+        }
+        .score {
+            margin-inline-start: 1rem;
+        }
+    }
+}

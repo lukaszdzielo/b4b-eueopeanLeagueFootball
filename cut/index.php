@@ -4,20 +4,199 @@
 
 <?php include 'elements/side_menu.php' ?>
 
-<div>
+<main>
 
     <?php include 'elements/top_bar.php' ?>
 
-    <div class="container-fluid px-sm-8 px-md-12">
-        <h1 class="fw-bold">Dashboard</h1>
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    <div class="container-fluid px-sm-8 px-md-12 overflow-hidden">
+        <div>
+            <h1 class="fw-bold">Dashboard</h1>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ullam perferendis possimus unde? Exercitationem minima cupiditate atque beatae? Iste assumenda, aspernatur neque ullam provident veniam vero eos pariatur? Voluptas laboriosam itaque dolores voluptatem suscipit ut ratione nesciunt soluta distinctio odio ea quae, laudantium amet saepe earum aliquid cumque eveniet magni ipsum aliquam nostrum ab tempora omnis? Corporis accusantium at nostrum velit consequatur corrupti maiores obcaecati veritatis! Explicabo incidunt sapiente iure accusantium similique iusto cum eaque tempora, officia animi. At blanditiis laborum quae sequi consectetur, laudantium nemo velit quisquam? Quae neque quam omnis qui officiis rerum amet iste, provident magnam doloremque quidem accusantium tempore alias error natus enim voluptates fuga iure porro culpa laboriosam velit sapiente distinctio nemo. Sed consequuntur quasi labore corporis saepe, perspiciatis, recusandae mollitia, quibusdam quia velit itaque fugit incidunt magnam earum dignissimos sunt corrupti commodi cum beatae! Ab nesciunt sit error magnam vitae possimus consequatur harum consectetur aspernatur incidunt, a doloribus earum numquam ullam, consequuntur quod quo. Nisi, repudiandae corporis, suscipit illo sequi architecto commodi, expedita consectetur quos incidunt labore quae illum error non repellat neque. Tenetur corporis qui amet dolorum illum id ipsum nulla non quo deleniti perferendis nam harum, commodi in molestias atque alias porro! Eos amet aliquid vel quam tempora similique, exercitationem deleniti hic officiis aperiam? Nostrum dolorem iure eum quisquam odit sint, corporis minus laudantium numquam ipsa ullam tenetur hic enim, amet eius molestias ut. Voluptates magni minus ex, non cumque harum! Voluptatem quod deleniti accusamus possimus voluptatum autem deserunt obcaecati mollitia dolore vel recusandae aliquid est, cumque adipisci dolorum natus non illum aut ullam repellendus? Alias, omnis error exercitationem, aliquam sed repudiandae fuga earum aut nobis cumque corrupti dicta sint necessitatibus iure maxime odio autem unde explicabo reprehenderit est sunt. Corrupti, unde nemo recusandae est cumque atque iste voluptate veritatis praesentium, illo deserunt minus? Aperiam ipsa velit illum atque in quam laborum totam nisi, laudantium voluptates debitis iusto dolorum sunt nesciunt magni optio nulla itaque at aspernatur? Commodi accusamus adipisci, ratione facilis, odit fugiat ut numquam explicabo vero nulla reiciendis suscipit provident perspiciatis odio exercitationem amet quod, totam debitis nisi! Velit a non, ipsum eveniet libero sapiente nam rem inventore facere ratione tenetur ut corrupti unde rerum ea. Voluptatem, tenetur, eos ducimus aliquam modi velit sunt alias natus fugit excepturi quos dolores. Magni magnam eos et labore delectus temporibus illum quidem mollitia quibusdam! Recusandae odit esse, veniam quo, ex explicabo harum obcaecati fugit quidem tempora non, qui minus. Recusandae accusamus vel culpa maxime dolorum alias, assumenda odio velit porro fugit aliquam et quisquam earum laudantium rem accusantium nulla? Quibusdam odio repellat porro tempora ut sapiente dignissimos ipsam officiis adipisci veniam facere voluptate reprehenderit eos vero minus, veritatis nulla, eum eveniet libero incidunt soluta neque. Nobis, incidunt. Unde nihil id minus suscipit culpa est! Tenetur temporibus omnis nihil impedit cupiditate! Esse a nihil, magnam sed recusandae deleniti tenetur maiores dolores, laborum exercitationem consequuntur nulla autem atque quis illo, at doloremque quam sequi ab veniam molestias veritatis blanditiis similique. Odit deleniti minima at molestias libero corrupti aut fugiat est voluptatibus, in dignissimos sint maiores rerum illo nesciunt. Blanditiis alias sed libero? Consectetur quisquam tempore ad eum nobis, quo asperiores natus et animi consequatur rem eveniet repudiandae libero unde, commodi temporibus molestiae dolore sit! Facilis qui maxime, labore iure veritatis consectetur eos harum repudiandae culpa ex deleniti voluptatum. Ea alias veniam numquam mollitia reiciendis? Harum eveniet tempora magnam nemo perferendis adipisci aliquam maxime ex, beatae amet totam iure cum maiores est doloribus numquam voluptatum voluptas molestiae? Explicabo tempora eius possimus nulla reprehenderit cupiditate nesciunt. Magnam quidem, explicabo aperiam aliquid molestiae quos veniam odit sit dolore neque dolores quo voluptate ullam quasi quam atque vel. Dolor optio natus voluptatum blanditiis laudantium dolorum inventore, doloribus ratione provident aliquam nam ab voluptates. Ut aperiam eaque cum in assumenda nulla dolorum quis iusto, nihil quia itaque alias unde debitis, dicta doloribus deleniti asperiores nostrum ad, porro ex magnam voluptas perferendis? Cum modi autem sit nulla quas atque minima corrupti ipsum itaque odio tempora tenetur incidunt, omnis tempore, doloribus sapiente perspiciatis eius! Maiores veniam similique perferendis consequuntur corrupti hic ipsum reprehenderit, voluptatum accusantium porro accusamus ratione, doloribus dolorem magnam beatae minus rem iusto? Illo eius repellendus quis, deleniti aliquid quod iure nostrum est excepturi in? Numquam, magni aliquid minima dolores exercitationem id. Similique labore sunt odit sequi, blanditiis officiis quisquam molestiae harum ex nihil maxime recusandae accusantium! Eum facere labore blanditiis distinctio repudiandae totam tempora cumque, repellat aspernatur voluptate sapiente debitis id fuga rerum quasi aliquid laudantium dolore quis corporis, esse amet magnam. Accusantium voluptate, reiciendis quia nihil unde iusto velit laboriosam temporibus magni dolores ut officiis earum aliquid expedita, facere tempore cupiditate asperiores. Harum ea totam labore facere voluptates, ratione cumque veniam rem nulla tenetur debitis quisquam accusamus doloribus? Distinctio facere recusandae corporis a ut sapiente dicta consequatur culpa vero! Autem fugit sapiente, similique accusamus temporibus fugiat obcaecati optio? Ab eum officiis praesentium magni distinctio possimus suscipit rerum labore quod repudiandae ipsa accusamus sapiente asperiores modi nulla perspiciatis, cum rem nemo consequuntur! Iure doloribus sit eaque maxime tempore voluptatem soluta in asperiores autem nisi accusantium nesciunt optio minima, ducimus, quo sed. Odio obcaecati corporis omnis libero quis amet aliquam. Voluptatem praesentium nihil, quo quam quia ea debitis sunt aspernatur minus assumenda magnam perferendis nisi repellat non vero vel deserunt error placeat repellendus qui obcaecati tempore. Voluptates ex dicta voluptatibus hic ratione porro! Dolorem reprehenderit tempora quos alias unde dolores culpa molestias nam nemo reiciendis perspiciatis, autem facilis illum voluptates explicabo laborum quo? Obcaecati, fuga? Architecto repudiandae beatae, quae, nisi laboriosam eius, quisquam eaque voluptatibus officia distinctio et! Dolorem ex cum iusto sed obcaecati tenetur, totam aliquam, incidunt amet modi doloribus accusantium deserunt cumque quas tempora earum aperiam est! Beatae iste debitis, vitae nulla dolorem error! Voluptatibus in natus minima labore laboriosam temporibus odio excepturi sit enim. Harum quasi eum est nesciunt rerum, earum a officia eveniet tempore maiores neque dolores modi mollitia doloribus ducimus, aliquam veritatis ut incidunt iste quod dicta quo nulla nihil. Amet rem voluptatem, beatae aliquid quisquam excepturi nisi? Repellat, soluta eveniet amet maxime quod similique, repudiandae enim voluptatem accusamus numquam adipisci ab saepe odit doloremque velit. Quo modi voluptate sit tenetur ab iste hic. Odit placeat eos voluptatem possimus et consequuntur. Inventore totam voluptatum libero deserunt nihil eveniet quod explicabo excepturi harum labore tenetur suscipit eos dicta voluptate distinctio accusantium, aperiam assumenda officia numquam quidem commodi? Dicta magni, nesciunt nostrum sit quaerat ipsa officiis eos, distinctio expedita corrupti iste pariatur fuga eum, corporis inventore quia incidunt neque suscipit! Asperiores tenetur dignissimos illum iure veniam corporis a voluptatem aspernatur quisquam quod commodi distinctio, aut aperiam inventore quae. At, quo! Ex vero, pariatur esse tempora temporibus voluptas animi dolore cumque, nesciunt culpa, illum quos. Aut rem aliquam laborum perspiciatis cupiditate alias placeat iure vitae itaque eos molestias tenetur, repellat nam dolorum porro. Velit repellendus, facere eligendi nemo voluptatibus qui architecto aliquid eaque tempora at animi a nulla voluptatem. Laborum in, laudantium facilis excepturi repellendus, assumenda fugit, iusto est ipsa officia aliquam porro obcaecati repellat. Eum inventore sint ea in ducimus. Est aliquam vitae eum reprehenderit fuga debitis quod possimus ipsam accusantium? Quo voluptates commodi, odio incidunt a dolorem? Cum iure accusantium nesciunt? Alias facere deleniti deserunt corrupti consequatur voluptatem et aperiam porro vitae amet perspiciatis harum sapiente dolorem molestiae, commodi vero sequi accusantium aspernatur laudantium fugiat obcaecati odio maxime neque! Quia similique fuga nihil id eius beatae mollitia velit iste voluptate impedit sapiente deserunt enim ipsa quidem eum dolore, sint culpa deleniti aliquam. Fugit ipsa quidem vero animi natus alias ratione dolores inventore, fuga, laudantium, in est. Repellendus, quae. Aut obcaecati, repudiandae non reprehenderit architecto modi unde ad, eligendi vitae iusto sit incidunt culpa aperiam officiis earum laboriosam aliquid soluta facilis, tempora molestiae vero sint. Voluptatibus animi debitis cupiditate eum nesciunt rerum ea tempore reprehenderit, eveniet excepturi delectus temporibus! Velit minima iure voluptatibus deleniti nulla aut optio ratione ex et, totam maiores non sit soluta vitae dolorem delectus. Rem quam tempora quae modi error maiores dicta vel aliquid tempore consequatur fugit distinctio aspernatur, dolores praesentium velit cum reiciendis a repellat! Impedit nemo culpa enim sapiente, nulla, dolores magnam asperiores odio vel ipsa laboriosam obcaecati autem expedita ipsum architecto officia numquam veniam illum provident voluptate placeat error tenetur. Facere magnam culpa necessitatibus laudantium atque rerum, voluptatem porro suscipit quo fugit soluta nisi amet hic earum ea architecto in assumenda dolores. Labore, excepturi voluptates! Quam doloremque dolorem voluptate ipsa iste eum perferendis in vel molestias, quaerat ratione cumque? Consequuntur, porro accusamus, accusantium cumque officia illum corrupti aliquid corporis eveniet sunt quis! Itaque, suscipit eius asperiores porro quidem cumque cum aspernatur? Eos cupiditate minus dolorem quibusdam magni veritatis nulla. Molestias pariatur accusamus ex, quidem amet fugit tenetur qui, eos totam porro aspernatur quas, natus debitis impedit eaque recusandae aperiam nobis consequatur illo saepe. Debitis dolor quibusdam tempora voluptatum tenetur corporis ut quasi, labore optio delectus maxime quidem hic magnam perspiciatis provident doloribus ex voluptates harum amet dolores exercitationem facilis repellat consectetur obcaecati! Non reiciendis modi ea alias provident. Magnam, rerum!</p>
+        <div class="row g-10 gx-sm-15 gx-md-20 gx-xl-30 gx-xxl-40 pb-16">
+            <div class="col-auto">
+                <div class="team-short">
+                    <div class="heading">Barcelona Dragons</div>
+                    <div class="image">
+                        <img src="../webroot/files/teams/barcelona_dragons.svg" alt="#">
+                    </div>
+                    <ul class="list-unstyled">
+                        <li><span>Players In Team:</span><span class="score">75</span></li>
+                        <li><span>Players awaiting submission:</span><span class="score">16</span></li>
+                        <li><span>Licenses Pending:</span><span class="score">24</span></li>
+                        <li><span>Licenses Approved:</span><span class="score">20</span></li>
+                        <li><span>Licenses Rejected:</span><span class="score">15</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="team-short">
+                    <div class="heading">Berlin Thunder</div>
+                    <div class="image">
+                        <img src="../webroot/files/teams/berlin_thunder.svg" alt="#">
+                    </div>
+                    <ul class="list-unstyled">
+                        <li><span>Players In Team:</span><span class="score">75</span></li>
+                        <li><span>Players awaiting submission:</span><span class="score">16</span></li>
+                        <li><span>Licenses Pending:</span><span class="score">24</span></li>
+                        <li><span>Licenses Approved:</span><span class="score">20</span></li>
+                        <li><span>Licenses Rejected:</span><span class="score">15</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="team-short">
+                    <div class="heading">Cologne Centurions</div>
+                    <div class="image">
+                        <img src="../webroot/files/teams/cologne_centurions.svg" alt="#">
+                    </div>
+                    <ul class="list-unstyled">
+                        <li><span>Players In Team:</span><span class="score">75</span></li>
+                        <li><span>Players awaiting submission:</span><span class="score">16</span></li>
+                        <li><span>Licenses Pending:</span><span class="score">24</span></li>
+                        <li><span>Licenses Approved:</span><span class="score">20</span></li>
+                        <li><span>Licenses Rejected:</span><span class="score">15</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="team-short">
+                    <div class="heading">Frankfurt Galaxy</div>
+                    <div class="image">
+                        <img src="../webroot/files/teams/frankfurt_galaxy.svg" alt="#">
+                    </div>
+                    <ul class="list-unstyled">
+                        <li><span>Players In Team:</span><span class="score">75</span></li>
+                        <li><span>Players awaiting submission:</span><span class="score">16</span></li>
+                        <li><span>Licenses Pending:</span><span class="score">24</span></li>
+                        <li><span>Licenses Approved:</span><span class="score">20</span></li>
+                        <li><span>Licenses Rejected:</span><span class="score">15</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="team-short">
+                    <div class="heading">Hamburg Sea Devils</div>
+                    <div class="image">
+                        <img src="../webroot/files/teams/hamburg_sea_devils.svg" alt="#">
+                    </div>
+                    <ul class="list-unstyled">
+                        <li><span>Players In Team:</span><span class="score">75</span></li>
+                        <li><span>Players awaiting submission:</span><span class="score">16</span></li>
+                        <li><span>Licenses Pending:</span><span class="score">24</span></li>
+                        <li><span>Licenses Approved:</span><span class="score">20</span></li>
+                        <li><span>Licenses Rejected:</span><span class="score">15</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="team-short">
+                    <div class="heading">Istanbul Rams</div>
+                    <div class="image">
+                        <img src="../webroot/files/teams/istanbul_rams.svg" alt="#">
+                    </div>
+                    <ul class="list-unstyled">
+                        <li><span>Players In Team:</span><span class="score">75</span></li>
+                        <li><span>Players awaiting submission:</span><span class="score">16</span></li>
+                        <li><span>Licenses Pending:</span><span class="score">24</span></li>
+                        <li><span>Licenses Approved:</span><span class="score">20</span></li>
+                        <li><span>Licenses Rejected:</span><span class="score">15</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="team-short">
+                    <div class="heading">Leipzig Kings</div>
+                    <div class="image">
+                        <img src="../webroot/files/teams/leipzig_kings.svg" alt="#">
+                    </div>
+                    <ul class="list-unstyled">
+                        <li><span>Players In Team:</span><span class="score">75</span></li>
+                        <li><span>Players awaiting submission:</span><span class="score">16</span></li>
+                        <li><span>Licenses Pending:</span><span class="score">24</span></li>
+                        <li><span>Licenses Approved:</span><span class="score">20</span></li>
+                        <li><span>Licenses Rejected:</span><span class="score">15</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="team-short">
+                    <div class="heading">Wroclaw Panthers</div>
+                    <div class="image">
+                        <img src="../webroot/files/teams/wroclaw_panthers.svg" alt="#">
+                    </div>
+                    <ul class="list-unstyled">
+                        <li><span>Players In Team:</span><span class="score">75</span></li>
+                        <li><span>Players awaiting submission:</span><span class="score">16</span></li>
+                        <li><span>Licenses Pending:</span><span class="score">24</span></li>
+                        <li><span>Licenses Approved:</span><span class="score">20</span></li>
+                        <li><span>Licenses Rejected:</span><span class="score">15</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="team-short">
+                    <div class="heading">Raiders Tirol</div>
+                    <div class="image">
+                        <img src="../webroot/files/teams/raiders_tirol.svg" alt="#">
+                    </div>
+                    <ul class="list-unstyled">
+                        <li><span>Players In Team:</span><span class="score">75</span></li>
+                        <li><span>Players awaiting submission:</span><span class="score">16</span></li>
+                        <li><span>Licenses Pending:</span><span class="score">24</span></li>
+                        <li><span>Licenses Approved:</span><span class="score">20</span></li>
+                        <li><span>Licenses Rejected:</span><span class="score">15</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="team-short">
+                    <div class="heading">Rhein Fire</div>
+                    <div class="image">
+                        <img src="../webroot/files/teams/rhein_fire.svg" alt="#">
+                    </div>
+                    <ul class="list-unstyled">
+                        <li><span>Players In Team:</span><span class="score">75</span></li>
+                        <li><span>Players awaiting submission:</span><span class="score">16</span></li>
+                        <li><span>Licenses Pending:</span><span class="score">24</span></li>
+                        <li><span>Licenses Approved:</span><span class="score">20</span></li>
+                        <li><span>Licenses Rejected:</span><span class="score">15</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="team-short">
+                    <div class="heading">Stuttgart Surge</div>
+                    <div class="image">
+                        <img src="../webroot/files/teams/stuttgart_surge.svg" alt="#">
+                    </div>
+                    <ul class="list-unstyled">
+                        <li><span>Players In Team:</span><span class="score">75</span></li>
+                        <li><span>Players awaiting submission:</span><span class="score">16</span></li>
+                        <li><span>Licenses Pending:</span><span class="score">24</span></li>
+                        <li><span>Licenses Approved:</span><span class="score">20</span></li>
+                        <li><span>Licenses Rejected:</span><span class="score">15</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="team-short">
+                    <div class="heading">Vienna Vikings</div>
+                    <div class="image">
+                        <img src="../webroot/files/teams/vienna_vikings.svg" alt="#">
+                    </div>
+                    <ul class="list-unstyled">
+                        <li><span>Players In Team:</span><span class="score">75</span></li>
+                        <li><span>Players awaiting submission:</span><span class="score">16</span></li>
+                        <li><span>Licenses Pending:</span><span class="score">24</span></li>
+                        <li><span>Licenses Approved:</span><span class="score">20</span></li>
+                        <li><span>Licenses Rejected:</span><span class="score">15</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 
-</div>
+</main>
 
 <?php include 'elements/_footer_scripts.php' ?>
 
