@@ -1,9 +1,9 @@
 .side_menu {
-    position: sticky;
-    top: 0;
-    left: 0;
-    background: var(--gray-secondary);
     @include media-breakpoint-up(lg) {
+        position: sticky;
+        top: 0;
+        left: 0;
+        background: var(--gray-secondary);
         flex: 0 0 320px;
     }
 
@@ -66,6 +66,7 @@
         color: rgba(var(--white-rgb), 0.5);
         .icon {
             fill: rgba(var(--white-rgb), 0.5);
+            transition: $transition-base;
             &:not(.arrow) {
                 margin-inline-end: 1.25rem;
             }
@@ -86,17 +87,24 @@
                 fill: rgba(var(--white-rgb), 1);
             }
         }
+        &:is(.collapsed) {
+            .arrow {
+                transform: rotate(-90deg);
+            }
+        }
     }
 
     .nav-item + .nav-item {
         margin-top: 0.5rem;
     }
 
-    .dropdown ul {
-        padding-inline-start: 1.5rem;
-        @include font-size(1rem);
-        .nav-item {
-            margin-top: 0.5rem;
+    .dropdown {
+        ul {
+            padding-inline-start: 1.5rem;
+            @include font-size(1rem);
+            .nav-item {
+                margin-top: 0.25rem;
+            }
         }
     }
 
