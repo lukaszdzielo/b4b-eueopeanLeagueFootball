@@ -108,3 +108,21 @@
         }
     }
 }
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    &:is(&:not(.btn-menu, .btn-close, .btn-notifications, .btn-user)) {
+        padding: 0.75rem 1rem;
+        min-width: 200px;
+    }
+    &-gray-550 {
+        color: var(--white);
+        .icon {
+            fill: var(--white);
+        }
+        &:hover {
+            color: var(--white);
+        }
+    }
+}

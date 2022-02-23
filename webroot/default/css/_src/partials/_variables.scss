@@ -48,7 +48,8 @@ $cyan: #0dcaf0 !default;
 
 // scss-docs-start colors-map
 $colors: (
-    "white":      $white,) !default;
+    "white": $white,
+) !default;
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
@@ -68,6 +69,7 @@ $theme-colors: (
     "secondary": #29a3ef,
     "tertiary": #1ca051,
     "quaternary": #eb5757,
+    "gray-550": $gray-550,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -135,6 +137,17 @@ $body-text-align: null !default;
 
 $grid-gutter-width: 2rem;
 
+// Components ~513
+//
+// Define common padding and border radius sizes and more.
+
+// scss-docs-start border-radius-variables
+$border-radius: 0.25rem !default;
+$border-radius-sm: 0.2rem !default;
+$border-radius-lg: 0.3rem !default;
+$border-radius-pill: 50rem !default;
+// scss-docs-end border-radius-variables
+
 // Typography ~571
 //
 // Font, line-height, and color for body text, headings, and more.
@@ -166,6 +179,8 @@ $h4-font-size: $font-size-base * 1 !default;
 
 $btn-focus-width: none;
 $btn-focus-box-shadow: none;
+
+$btn-border-radius: $border-radius-pill;
 
 // Toasts ~1367
 

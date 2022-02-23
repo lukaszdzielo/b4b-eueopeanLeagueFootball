@@ -1,8 +1,10 @@
+<?php /* ICONS FROM https://fonts.google.com/icons */ ?>
+
 <div class="side_menu">
     <div id="side_menu" class="offcanvas offcanvas-start" tabindex="-1">
         <div class="offcanvas-header pt-9 pb-10">
             <div class="navbar-brand">
-                <img src="../webroot/files/logo.svg" alt="#">
+                <img src="../files/logo.svg" alt="#">
             </div>
             <button type="button" class="btn btn-close d-lg-none" data-bs-dismiss="offcanvas" aria-label="Close">
                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
