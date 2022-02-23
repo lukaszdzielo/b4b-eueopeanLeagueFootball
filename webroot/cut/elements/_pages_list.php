@@ -5,7 +5,7 @@
         </svg>
     </button>
     <ul>
-        <li><a href="index.php">GG8-59 Homepage</a></li>
+        <li><a href="index.php">GG8-59 Dashboard</a></li>
     </ul>
 </div>
 
