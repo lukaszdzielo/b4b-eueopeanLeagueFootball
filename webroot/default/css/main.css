@@ -3098,9 +3098,9 @@ textarea.form-control-lg {
     color: #6c757d; }
 
 .btn-lg {
-  padding: 0.5rem 1rem;
-  font-size: 1.25rem;
-  border-radius: 0.3rem; }
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 50rem; }
 
 .btn-sm {
   padding: 0.25rem 0.5rem;
@@ -10999,12 +10999,11 @@ main {
 .btn {
   display: inline-flex;
   align-items: center; }
-  .btn:is(.btn:not(.btn-menu):not(.btn-close):not(.btn-notifications):not(.btn-user)) {
-    padding: 0.75rem 1rem;
+  .btn-lg {
     min-width: 200px; }
   .btn-gray-550 {
     color: var(--white); }
     .btn-gray-550 .icon {
       fill: var(--white); }
-    .btn-gray-550:hover {
+    .btn-gray-550:is(:hover, :focus, :active) {
       color: var(--white); }

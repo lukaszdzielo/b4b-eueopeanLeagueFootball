@@ -180,8 +180,12 @@ $h4-font-size: $font-size-base * 1 !default;
 $btn-focus-width: none;
 $btn-focus-box-shadow: none;
 
-$btn-border-radius: $border-radius-pill;
+$btn-padding-y-lg:            0.75rem;
+$btn-padding-x-lg:            1rem;
+$btn-font-size-lg:            1rem;
 
+$btn-border-radius: $border-radius-pill;
+$btn-border-radius-lg: $border-radius-pill;
 // Toasts ~1367
 
 // scss-docs-start toast-variables
