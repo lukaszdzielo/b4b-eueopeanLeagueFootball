@@ -8,11 +8,11 @@
     <meta name="description" content="#" />
 
     <?php /* favicon */ ?>
-    <link rel="icon" type="image/svg+xml" href="../webroot/files/favicon/favicon.svg">
-    <link rel="icon" type="image/png" href="../webroot/files/favicon/favicon.png">
+    <link rel="icon" type="image/svg+xml" href="../files/favicon/favicon.svg">
+    <link rel="icon" type="image/png" href="../files/favicon/favicon.png">
 
     <?php /* website styles */ ?>
-    <link rel="stylesheet" href="../webroot/default/css/main.min.css">
+    <link rel="stylesheet" href="../default/css/main.min.css">
 
   </script>
 </head>

@@ -16,7 +16,7 @@
     var plumber = require("gulp-plumber");
 
     var config = {
-        proxy: "http://eueopeanleaguefootball.test/cut/index.php", // change it to your development domain
+        proxy: "http://eueopeanleaguefootball.test/webroot/cut/index.php", // change it to your development domain
         img: {
             jpg: "/**/*.jpg",
             png: "/**/*.png",
