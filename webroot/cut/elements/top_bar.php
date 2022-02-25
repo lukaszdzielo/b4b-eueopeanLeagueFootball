@@ -1,5 +1,5 @@
 <div class="mt-8">
-    <div class="container-fluid px-sm-8 px-md-12 d-flex align-items-center">
+    <div class="container-fluid px-sm-8 d-flex align-items-center">
         <button class="btn btn-menu d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#side_menu" aria-controls="offcanvasExample">
             <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
         </button>
@@ -51,7 +51,7 @@
                     <img src="https://via.placeholder.com/30x45">
                 </span>
                 <!-- <span class="avatar user">
-                    <img src="https://via.placeholder.com/45x45">
+                    <img src="https://via.placeholder.com/45">
                 </span> -->
                 <span class="text ms-3 me-auto">
                     <span class="name">Michael</span>

@@ -8,12 +8,12 @@
 
     <?php include 'elements/top_bar.php' ?>
 
-    <div class="container-fluid pt-8 px-sm-8 px-md-12 overflow-hidden">
+    <div class="container-fluid pt-4 px-sm-8 overflow-hidden">
         <div class="row g-4 align-items-center mb-8">
             <div class="col-auto me-auto">
                 <h1 class="fw-bold mb-0 me-4">Dashboard</h1>
             </div>
-            <div class="col-auto">
+            <div class="col-auto ms-auto">
                 <button class="btn btn-gray-550 btn-lg">
                     <span class="me-auto">See full list</span>
                     <svg class="icon ms-3" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/></svg>
@@ -185,7 +185,7 @@
                 <div class="team-short">
                     <div class="heading">Stuttgart Surge</div>
                     <div class="image">
-                        <img src="../files/teams/stuttgart_surge.svg" alt="#">
+                        <img src="../files/teams/stuttgart_surge.png" alt="#">
                         <a href="#" class="stretched-link"></a>
                     </div>
                     <ul class="list-unstyled">
