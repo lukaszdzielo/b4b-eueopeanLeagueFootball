@@ -6,6 +6,7 @@
     </button>
     <ul>
         <li><a href="index.php">GG8-59 Dashboard</a></li>
+        <li><a href="page-PlayerLicensingList.php">GG8-59 Player Licensing List</a></li>
     </ul>
 </div>
 
