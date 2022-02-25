@@ -1,3 +1,23 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    :is(.icon, .badge, .avatar) {
+        flex: 0 0 auto;
+    }
+    &-lg {
+        min-width: 200px;
+    }
+    &-gray-550 {
+        color: var(--white);
+        .icon {
+            fill: var(--white);
+        }
+        &:is(:hover, :focus, :active) {
+            color: var(--white);
+        }
+    }
+}
+
 .btn-close {
     display: inline-flex;
     flex: 0 0 auto;
@@ -68,13 +88,11 @@
         width: 200px;
     }
     .avatar {
-        margin-inline-end: 0.75rem;
         @include border-radius($border-radius-pill);
         width: 2.75rem;
         height: 2.75rem;
         background: var(--gray-550);
         overflow: hidden;
-        flex: 0 0 auto;
         img {
             width: 100%;
             height: 100%;
@@ -87,7 +105,6 @@
     .text {
         display: none;
         flex-direction: column;
-        margin-inline-end: auto;
         :is(&, .name, .status) {
             text-overflow: ellipsis;
             white-space: nowrap;
@@ -101,27 +118,7 @@
             @include font-size(0.875rem);
         }
     }
-    .arrow {
+    .icon {
         fill: rgba(var(--white-rgb), 1);
-        @include media-breakpoint-up(sm) {
-            margin-inline-start: 1.25rem;
-        }
-    }
-}
-
-.btn {
-    display: inline-flex;
-    align-items: center;
-    &-lg {
-        min-width: 200px;
-    }
-    &-gray-550 {
-        color: var(--white);
-        .icon {
-            fill: var(--white);
-        }
-        &:is(:hover, :focus, :active) {
-            color: var(--white);
-        }
     }
 }

@@ -66,10 +66,10 @@
             margin-inline-end: auto;
         }
         :is(.arrow, .badge) {
-            margin-inline-start: 1.25rem;
+            margin-inline-start: 0.75rem;
         }
         &.active {
-            background: var(--secondary);
+            background: var(--primary);
             font-weight: bold;
         }
         &:is(.active, :hover) {
