@@ -1,6 +1,6 @@
 <?php /* ICONS FROM https://fonts.google.com/icons */ ?>
 
-<div class="side_menu">
+<div class="col-auto side_menu">
     <div id="side_menu" class="offcanvas offcanvas-start" tabindex="-1">
         <div class="offcanvas-header pt-9 pb-10">
             <div class="navbar-brand">

@@ -5,5 +5,7 @@ body {
 }
 
 main {
-    width: 100%;
+    @include media-breakpoint-up(lg) {
+        width: calc(100% - 320px);
+    }
 }
