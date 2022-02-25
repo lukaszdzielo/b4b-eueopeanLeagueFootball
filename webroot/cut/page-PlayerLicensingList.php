@@ -32,55 +32,116 @@
             <div>20 players</div>
             <div>No Players have been have been added yet</div>
 
+            <div class="table-responsive">
+                <table class="table ">
+                    <thead>
+                        <tr>
+                            <th style="width: 0;"><div>Image</div></th>
+                            <th><div class="name">Player name</div></th>
+                            <th><div>Nationality</div></th>
+                            <th><div>Position</div></th>
+                            <th><div>No. of license<br>docs uploaded</div></th>
+                            <th><div>Profile<br>completion</div></th>
+                            <th><div>License<br>status</div></th>
+                            <th><div>Created</div></th>
+                            <th><div>Submitted</div></th>
+                            <th style="width: 0;"><div>Profile</div></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><div class="avatar"><img src="https://via.placeholder.com/65"></div></td>
+                            <td><div class="name">Trent Williams</div></td>
+                            <td><div class="flag"><img src="https://via.placeholder.com/35"></div></td>
+                            <td><div>QB</div></td>
+                            <td><div class="fractions"><sup>7</sup><hr><sub>7</sub></div></td>
+                            <td><div class="completion" style="--completion-color: #219653;">100%</div></td>
+                            <td><div class="status" style="--status-color:#29A3EF;"></div></td>
+                            <td><div class="time">Just now</div></td>
+                            <td><div class="">Not submitted<br>yet</div></td>
+                            <td><div>ICON</div></td>
+                        </tr>
+                        <tr>
+                            <td><div class="avatar"><img src="https://via.placeholder.com/65"></div></td>
+                            <td><div class="name">Chandler Jones</div></td>
+                            <td><div class="flag"><img src="https://via.placeholder.com/35"><img src="https://via.placeholder.com/35"></div></td>
+                            <td><div>RB</div></td>
+                            <td><div class="fractions"><sup>7</sup><hr><sub>7</sub></div></td>
+                            <td><div class="completion" style="--completion-color: #219653;">100%</div></td>
+                            <td><div class="status" style="--status-color:#EB5757;"></div></td>
+                            <td><div class="time">5 mins ago</div></td>
+                            <td><div class="time">5 hr ago</div></td>
+                            <td><div>ICON</div></td>
+                        </tr>
+                        <tr>
+                            <td><div class="avatar"><img src="https://via.placeholder.com/65"></div></td>
+                            <td><div class="name">Sam Koch</div></td>
+                            <td><div class="flag"><img src="https://via.placeholder.com/35"></div></td>
+                            <td><div>OL</div></td>
+                            <td><div class="fractions"><sup>7</sup><hr><sub>7</sub></div></td>
+                            <td><div class="completion" style="--completion-color: #219653;">100%</div></td>
+                            <td><div class="status" style="--status-color:#219653;"></div></td>
+                            <td><div class="time">2 weeks ago</div></td>
+                            <td><div class="time">4 days ago</div></td>
+                            <td><div>ICON</div></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
             <div class="table-responsive pb-3">
-                <div id="table" class="d-table">
-                    <div class="th">
-                        <div class="td"><div>Image</div></div>
-                        <div class="td"><div class="name">Player name</div></div>
-                        <div class="td"><div>Nationality</div></div>
-                        <div class="td"><div>Position</div></div>
-                        <div class="td"><div>No. of license<br>docs uploaded</div></div>
-                        <div class="td"><div>Profile<br>completion</div></div>
-                        <div class="td"><div>License<br>status</div></div>
-                        <div class="td"><div>Created</div></div>
-                        <div class="td"><div>Submitted</div></div>
-                        <div class="td"><div>Profile</div></div>
+                <div id="table" class="table d-table">
+                    <div style="display: table-header-group;">
+                        <div class="th">
+                            <div class="td" style="width: 0;"><div>Image</div></div>
+                            <div class="td"><div class="name">Player name</div></div>
+                            <div class="td"><div>Nationality</div></div>
+                            <div class="td"><div>Position</div></div>
+                            <div class="td"><div>No. of license<br>docs uploaded</div></div>
+                            <div class="td"><div>Profile<br>completion</div></div>
+                            <div class="td"><div>License<br>status</div></div>
+                            <div class="td"><div>Created</div></div>
+                            <div class="td"><div>Submitted</div></div>
+                            <div class="td" style="width: 0;"><div>Profile</div></div>
+                        </div>
                     </div>
-                    <div class="tr">
-                        <div class="td"><div class="avatar"><img src="https://via.placeholder.com/65"></div></div>
-                        <div class="td"><div class="name text-nowrap">Trent Williams</div></div>
-                        <div class="td"><div class="flag"><img src="https://via.placeholder.com/35"></div></div>
-                        <div class="td"><div>QB</div></div>
-                        <div class="td"><div class="fractions"><sup>7</sup><hr><sub>7</sub></div></div>
-                        <div class="td"><div class="completion" style="--completion-color: #219653;">100%</div></div>
-                        <div class="td"><div class="status" style="--status-color:#29A3EF;"></div></div>
-                        <div class="td"><div class="time text-nowrap">Just now</div></div>
-                        <div class="td"><div class=" text-nowrap">Not submitted<br>yet</div></div>
-                        <div class="td"><div>ICON</div></div>
-                    </div>
-                    <div class="tr">
-                        <div class="td"><div class="avatar"><img src="https://via.placeholder.com/65"></div></div>
-                        <div class="td"><div class="name text-nowrap">Chandler Jones</div></div>
-                        <div class="td"><div class="flag"><img src="https://via.placeholder.com/35"><img src="https://via.placeholder.com/35"></div></div>
-                        <div class="td"><div>RB</div></div>
-                        <div class="td"><div class="fractions"><sup>7</sup><hr><sub>7</sub></div></div>
-                        <div class="td"><div class="completion" style="--completion-color: #219653;">100%</div></div>
-                        <div class="td"><div class="status" style="--status-color:#EB5757;"></div></div>
-                        <div class="td"><div class="time text-nowrap">5 mins ago</div></div>
-                        <div class="td"><div class="time text-nowrap">5 hr ago</div></div>
-                        <div class="td"><div>ICON</div></div>
-                    </div>
-                    <div class="tr">
-                        <div class="td"><div class="avatar"><img src="https://via.placeholder.com/65"></div></div>
-                        <div class="td"><div class="name text-nowrap">Sam Koch</div></div>
-                        <div class="td"><div class="flag"><img src="https://via.placeholder.com/35"></div></div>
-                        <div class="td"><div>OL</div></div>
-                        <div class="td"><div class="fractions"><sup>7</sup><hr><sub>7</sub></div></div>
-                        <div class="td"><div class="completion" style="--completion-color: #219653;">100%</div></div>
-                        <div class="td"><div class="status" style="--status-color:#219653;"></div></div>
-                        <div class="td"><div class="time text-nowrap">2 weeks ago</div></div>
-                        <div class="td"><div class="time text-nowrap">4 days ago</div></div>
-                        <div class="td"><div>ICON</div></div>
+                    <div style="display: table-row-group;">
+                        <div class="tr">
+                            <div class="td"><div class="avatar"><img src="https://via.placeholder.com/65"></div></div>
+                            <div class="td"><div class="name text-nowrap">Trent Williams</div></div>
+                            <div class="td"><div class="flag"><img src="https://via.placeholder.com/35"></div></div>
+                            <div class="td"><div>QB</div></div>
+                            <div class="td"><div class="fractions"><sup>7</sup><hr><sub>7</sub></div></div>
+                            <div class="td"><div class="completion" style="--completion-color: #219653;">100%</div></div>
+                            <div class="td"><div class="status" style="--status-color:#29A3EF;"></div></div>
+                            <div class="td"><div class="time text-nowrap">Just now</div></div>
+                            <div class="td"><div class=" text-nowrap">Not submitted<br>yet</div></div>
+                            <div class="td"><div>ICON</div></div>
+                        </div>
+                        <div class="tr">
+                            <div class="td"><div class="avatar"><img src="https://via.placeholder.com/65"></div></div>
+                            <div class="td"><div class="name text-nowrap">Chandler Jones</div></div>
+                            <div class="td"><div class="flag"><img src="https://via.placeholder.com/35"><img src="https://via.placeholder.com/35"></div></div>
+                            <div class="td"><div>RB</div></div>
+                            <div class="td"><div class="fractions"><sup>7</sup><hr><sub>7</sub></div></div>
+                            <div class="td"><div class="completion" style="--completion-color: #219653;">100%</div></div>
+                            <div class="td"><div class="status" style="--status-color:#EB5757;"></div></div>
+                            <div class="td"><div class="time text-nowrap">5 mins ago</div></div>
+                            <div class="td"><div class="time text-nowrap">5 hr ago</div></div>
+                            <div class="td"><div>ICON</div></div>
+                        </div>
+                        <div class="tr">
+                            <div class="td"><div class="avatar"><img src="https://via.placeholder.com/65"></div></div>
+                            <div class="td"><div class="name text-nowrap">Sam Koch</div></div>
+                            <div class="td"><div class="flag"><img src="https://via.placeholder.com/35"></div></div>
+                            <div class="td"><div>OL</div></div>
+                            <div class="td"><div class="fractions"><sup>7</sup><hr><sub>7</sub></div></div>
+                            <div class="td"><div class="completion" style="--completion-color: #219653;">100%</div></div>
+                            <div class="td"><div class="status" style="--status-color:#219653;"></div></div>
+                            <div class="td"><div class="time text-nowrap">2 weeks ago</div></div>
+                            <div class="td"><div class="time text-nowrap">4 days ago</div></div>
+                            <div class="td"><div>ICON</div></div>
+                        </div>
                     </div>
                 </div>
             </div>
