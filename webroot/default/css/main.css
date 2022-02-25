@@ -10858,149 +10858,8 @@ textarea.form-control-lg {
   font-size: 0.875rem;
   text-align: center; }
 
-div.table {
-  --border-radius: 1rem;
-  display: table;
-  width: 100%;
-  height: 100%;
-  font-size: 1.125rem;
-  font-weight: var(--fw-semibold); }
-  div.table .th,
-  div.table .tr {
-    display: table-row; }
-  div.table .td {
-    display: table-cell;
-    padding: 0;
-    text-align: center; }
-    div.table .td > * {
-      height: 100%; }
-  div.table .th .td {
-    color: var(--gray-550);
-    font-weight: bold;
-    vertical-align: bottom;
-    white-space: nowrap; }
-    div.table .th .td > * {
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
-      padding: 0.5rem 1rem; }
-    div.table .th .td:first-of-type {
-      border-left: 1rem solid transparent; }
-      @media (min-width: 992px) {
-        div.table .th .td:first-of-type {
-          border-left: 1.5rem solid transparent; }
-          div.table .th .td:first-of-type > * {
-            padding-left: 1.5rem; } }
-    div.table .th .td:last-of-type {
-      border-right: 1rem solid transparent; }
-      @media (min-width: 992px) {
-        div.table .th .td:last-of-type {
-          border-right: 1.5rem solid transparent; }
-          div.table .th .td:last-of-type > * {
-            padding-right: 1.5rem; } }
-  div.table .tr .td {
-    background: var(--gray-850);
-    vertical-align: middle; }
-    div.table .tr .td > * {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 1rem 1rem; }
-    div.table .tr .td:first-of-type {
-      border-left: 1rem solid var(--gray-850); }
-      div.table .tr .td:first-of-type > * {
-        border-radius: var(--border-radius) 0 0 var(--border-radius); }
-      @media (min-width: 992px) {
-        div.table .tr .td:first-of-type {
-          border-left: 1.5rem solid var(--gray-850); }
-          div.table .tr .td:first-of-type > * {
-            padding-left: 1.5rem; } }
-    div.table .tr .td:last-of-type {
-      border-right: 1rem solid var(--gray-850); }
-      div.table .tr .td:last-of-type > * {
-        border-radius: 0 var(--border-radius) var(--border-radius) 0; }
-      @media (min-width: 992px) {
-        div.table .tr .td:last-of-type {
-          border-right: 1.5rem solid var(--gray-850); }
-          div.table .tr .td:last-of-type > * {
-            padding-right: 1.5rem; } }
-  div.table .tr:nth-child(even) .td > * {
-    background: var(--gray-950); }
-  div.table .tr:first-of-type .td:first-of-type {
-    border-start-start-radius: var(--border-radius); }
-  div.table .tr:first-of-type .td:last-of-type {
-    border-start-end-radius: var(--border-radius); }
-  div.table .tr:last-of-type .td:first-of-type {
-    border-end-start-radius: var(--border-radius); }
-  div.table .tr:last-of-type .td:last-of-type {
-    border-end-end-radius: var(--border-radius); }
-  div.table .td > .avatar img {
-    border-radius: 50rem;
-    width: 65px;
-    height: 65px;
-    overflow: hidden; }
-  div.table .td > .name {
-    justify-content: flex-start; }
-  div.table .td > .flag img {
-    border-radius: 50rem;
-    width: 35px;
-    height: 35px;
-    overflow: hidden; }
-    div.table .td > .flag img + img {
-      margin-left: 0.25rem; }
-  div.table .td > .fractions sup,
-  div.table .td > .fractions sub {
-    font-size: calc(1.275rem + 0.3vw); }
-    @media (min-width: 1200px) {
-      div.table .td > .fractions sup,
-      div.table .td > .fractions sub {
-        font-size: 1.5rem; } }
-  div.table .td > .fractions sup {
-    -webkit-margin-before: -0.25rem;
-            margin-block-start: -0.25rem;
-    -webkit-margin-end: -1.125rem;
-            margin-inline-end: -1.125rem; }
-  div.table .td > .fractions sub {
-    -webkit-margin-after: -1rem;
-            margin-block-end: -1rem;
-    -webkit-margin-start: -1rem;
-            margin-inline-start: -1rem; }
-  div.table .td > .fractions hr {
-    width: 2.5rem;
-    height: 2px;
-    opacity: 1;
-    transform: rotate(-45deg); }
-  div.table .td > .completion {
-    position: relative; }
-    div.table .td > .completion:before {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      border: 3px solid var(--completion-color);
-      border-radius: 1.125rem;
-      width: 3.5rem;
-      height: 3.5rem;
-      transform: translate(-50%, -50%) rotate(45deg); }
-  div.table .td > .status:before {
-    content: "";
-    display: block;
-    border-radius: 50rem;
-    width: 1.25rem;
-    height: 1.25rem;
-    background: var(--status-color); }
-  div.table .td > .time {
-    justify-content: flex-start; }
-    div.table .td > .time::before {
-      content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3e%3cpath d='M0 0h24v24H0V0z' fill='none'/%3e%3cpath d='M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z'/%3e%3c/svg%3e");
-      -webkit-margin-end: 0.5rem;
-              margin-inline-end: 0.5rem;
-      width: 1.5rem;
-      height: 1.5rem; }
-
 .table {
   --border-radius: 1rem;
-  font-size: 1.125rem;
   font-weight: var(--fw-semibold);
   border-spacing: 0;
   border-collapse: separate;
@@ -11079,6 +10938,8 @@ div.table {
     border-radius: 50rem;
     width: 65px;
     height: 65px;
+    -o-object-fit: cover;
+       object-fit: cover;
     overflow: hidden; }
   .table .name {
     justify-content: flex-start;
@@ -11089,7 +10950,7 @@ div.table {
     height: 35px;
     overflow: hidden; }
     .table .flag img + img {
-      margin-left: 0.25rem; }
+      margin-left: 0.5rem; }
   .table .fractions sup,
   .table .fractions sub {
     font-size: calc(1.275rem + 0.3vw); }
@@ -11276,7 +11137,7 @@ div.table {
     height: 100%;
     fill: rgba(var(--white-rgb), 1); }
 
-.btn-notifications {
+.btn-icon {
   position: relative;
   display: inline-flex;
   justify-content: center;
@@ -11287,12 +11148,11 @@ div.table {
   width: 2.75rem;
   height: 2.75rem;
   background: var(--gray-550); }
-  .btn-notifications .icon {
+  .btn-icon .icon {
     fill: rgba(var(--white-rgb), 1); }
-  .btn-notifications .badge {
+  .btn-icon .badge {
     position: absolute;
     top: -0.25rem;
-    right: -0.25rem;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -11301,6 +11161,10 @@ div.table {
     height: 1rem;
     background: var(--quaternary);
     font-size: 0.5rem; }
+    .btn-icon .badge.left {
+      inset-inline-start: -0.25rem; }
+    .btn-icon .badge.right {
+      inset-inline-end: -0.25rem; }
 
 .btn-user {
   display: inline-flex;

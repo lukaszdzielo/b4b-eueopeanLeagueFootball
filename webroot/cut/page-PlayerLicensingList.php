@@ -50,100 +50,92 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><div class="avatar"><img src="https://via.placeholder.com/65"></div></td>
+                            <td><div class="avatar"><img src="../files/Players/Williams_Trent.png"></div></td>
                             <td><div class="name">Trent Williams</div></td>
-                            <td><div class="flag"><img src="https://via.placeholder.com/35"></div></td>
+                            <td><div class="flag"><img src="../files/flags/United_States.png"></div></td>
                             <td><div>QB</div></td>
                             <td><div class="fractions"><sup>7</sup><hr><sub>7</sub></div></td>
                             <td><div class="completion" style="--completion-color: #219653;">100%</div></td>
                             <td><div class="status" style="--status-color:#29A3EF;"></div></td>
                             <td><div class="time">Just now</div></td>
                             <td><div class="">Not submitted<br>yet</div></td>
-                            <td><div>ICON</div></td>
+                            <td><div>
+                                <button class="btn btn-icon">
+                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"/></svg>
+                                    <span class="badge left">4</span>
+                                </button>
+                            </div></td>
                         </tr>
                         <tr>
-                            <td><div class="avatar"><img src="https://via.placeholder.com/65"></div></td>
+                            <td><div class="avatar"><img src="../files/Players/Jones_Chandler.png"></div></td>
                             <td><div class="name">Chandler Jones</div></td>
-                            <td><div class="flag"><img src="https://via.placeholder.com/35"><img src="https://via.placeholder.com/35"></div></td>
+                            <td><div class="flag"><img src="../files/flags/United_States.png"><img src="../files/flags/Germany.png"></div></td>
                             <td><div>RB</div></td>
                             <td><div class="fractions"><sup>7</sup><hr><sub>7</sub></div></td>
                             <td><div class="completion" style="--completion-color: #219653;">100%</div></td>
                             <td><div class="status" style="--status-color:#EB5757;"></div></td>
                             <td><div class="time">5 mins ago</div></td>
                             <td><div class="time">5 hr ago</div></td>
-                            <td><div>ICON</div></td>
+                            <td><div>
+                                <button class="btn btn-icon">
+                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"/></svg>
+                                    <span class="badge left">4</span>
+                                </button>
+                            </div></td>
                         </tr>
                         <tr>
-                            <td><div class="avatar"><img src="https://via.placeholder.com/65"></div></td>
+                            <td><div class="avatar"><img src="../files/Players/Whitworth_Andrew.png"></div></td>
+                            <td><div class="name">Andrew Whitworth</div></td>
+                            <td><div class="flag"><img src="../files/flags/United_States.png"></div></td>
+                            <td><div>WR</div></td>
+                            <td><div class="fractions"><sup>3</sup><hr><sub>7</sub></div></td>
+                            <td><div class="completion" style="--completion-color: #F2994A;">60%</div></td>
+                            <td><div class="status" style="--status-color:#828282;"></div></td>
+                            <td><div class="time">2 hrs ago</div></td>
+                            <td><div class="">Not submitted yet</div></td>
+                            <td><div>
+                                <button class="btn btn-icon">
+                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"/></svg>
+                                    <span class="badge left">4</span>
+                                </button>
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td><div class="avatar"><img src="../files/Players/Jones_Chandler.png"></div></td>
+                            <td><div class="name">Chandler Jones</div></td>
+                            <td><div class="flag"><img src="../files/flags/United_States.png"></div></td>
+                            <td><div>TE</div></td>
+                            <td><div class="fractions"><sup>2</sup><hr><sub>7</sub></div></td>
+                            <td><div class="completion" style="--completion-color: #219653;">100%</div></td>
+                            <td><div class="status" style="--status-color:#F2994A;"></div></td>
+                            <td><div class="time">2 days ago</div></td>
+                            <td><div class="time">1 day ago</div></td>
+                            <td><div>
+                                <button class="btn btn-icon">
+                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"/></svg>
+                                    <span class="badge left">4</span>
+                                </button>
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td><div class="avatar"><img src="../files/Players/Koch_Sam.png"></div></td>
                             <td><div class="name">Sam Koch</div></td>
-                            <td><div class="flag"><img src="https://via.placeholder.com/35"></div></td>
+                            <td><div class="flag"><img src="../files/flags/United_States.png"></div></td>
                             <td><div>OL</div></td>
                             <td><div class="fractions"><sup>7</sup><hr><sub>7</sub></div></td>
                             <td><div class="completion" style="--completion-color: #219653;">100%</div></td>
                             <td><div class="status" style="--status-color:#219653;"></div></td>
                             <td><div class="time">2 weeks ago</div></td>
                             <td><div class="time">4 days ago</div></td>
-                            <td><div>ICON</div></td>
+                            <td><div>
+                                <button class="btn btn-icon">
+                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"/></svg>
+                                    <span class="badge left">4</span>
+                                </button>
+                            </div></td>
                         </tr>
                     </tbody>
                 </table>
-            </div>
-
-            <div class="table-responsive pb-3">
-                <div id="table" class="table d-table">
-                    <div style="display: table-header-group;">
-                        <div class="th">
-                            <div class="td" style="width: 0;"><div>Image</div></div>
-                            <div class="td"><div class="name">Player name</div></div>
-                            <div class="td"><div>Nationality</div></div>
-                            <div class="td"><div>Position</div></div>
-                            <div class="td"><div>No. of license<br>docs uploaded</div></div>
-                            <div class="td"><div>Profile<br>completion</div></div>
-                            <div class="td"><div>License<br>status</div></div>
-                            <div class="td"><div>Created</div></div>
-                            <div class="td"><div>Submitted</div></div>
-                            <div class="td" style="width: 0;"><div>Profile</div></div>
-                        </div>
-                    </div>
-                    <div style="display: table-row-group;">
-                        <div class="tr">
-                            <div class="td"><div class="avatar"><img src="https://via.placeholder.com/65"></div></div>
-                            <div class="td"><div class="name text-nowrap">Trent Williams</div></div>
-                            <div class="td"><div class="flag"><img src="https://via.placeholder.com/35"></div></div>
-                            <div class="td"><div>QB</div></div>
-                            <div class="td"><div class="fractions"><sup>7</sup><hr><sub>7</sub></div></div>
-                            <div class="td"><div class="completion" style="--completion-color: #219653;">100%</div></div>
-                            <div class="td"><div class="status" style="--status-color:#29A3EF;"></div></div>
-                            <div class="td"><div class="time text-nowrap">Just now</div></div>
-                            <div class="td"><div class=" text-nowrap">Not submitted<br>yet</div></div>
-                            <div class="td"><div>ICON</div></div>
-                        </div>
-                        <div class="tr">
-                            <div class="td"><div class="avatar"><img src="https://via.placeholder.com/65"></div></div>
-                            <div class="td"><div class="name text-nowrap">Chandler Jones</div></div>
-                            <div class="td"><div class="flag"><img src="https://via.placeholder.com/35"><img src="https://via.placeholder.com/35"></div></div>
-                            <div class="td"><div>RB</div></div>
-                            <div class="td"><div class="fractions"><sup>7</sup><hr><sub>7</sub></div></div>
-                            <div class="td"><div class="completion" style="--completion-color: #219653;">100%</div></div>
-                            <div class="td"><div class="status" style="--status-color:#EB5757;"></div></div>
-                            <div class="td"><div class="time text-nowrap">5 mins ago</div></div>
-                            <div class="td"><div class="time text-nowrap">5 hr ago</div></div>
-                            <div class="td"><div>ICON</div></div>
-                        </div>
-                        <div class="tr">
-                            <div class="td"><div class="avatar"><img src="https://via.placeholder.com/65"></div></div>
-                            <div class="td"><div class="name text-nowrap">Sam Koch</div></div>
-                            <div class="td"><div class="flag"><img src="https://via.placeholder.com/35"></div></div>
-                            <div class="td"><div>OL</div></div>
-                            <div class="td"><div class="fractions"><sup>7</sup><hr><sub>7</sub></div></div>
-                            <div class="td"><div class="completion" style="--completion-color: #219653;">100%</div></div>
-                            <div class="td"><div class="status" style="--status-color:#219653;"></div></div>
-                            <div class="td"><div class="time text-nowrap">2 weeks ago</div></div>
-                            <div class="td"><div class="time text-nowrap">4 days ago</div></div>
-                            <div class="td"><div>ICON</div></div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <div class="row justify-content-between align-items-center g-4 pb-16">

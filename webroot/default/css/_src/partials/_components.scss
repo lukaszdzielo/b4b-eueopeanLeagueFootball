@@ -157,202 +157,9 @@
     }
 }
 
-div.table {
-    --border-radius: 1rem;
-    display: table;
-    width: 100%;
-    height: 100%;
-    @include font-size(1.125rem);
-    font-weight: var(--fw-semibold);
-    .th,
-    .tr {
-        display: table-row;
-    }
-    .td {
-        display: table-cell;
-        padding: 0;
-        text-align: center;
-        > * {
-            height: 100%;
-        }
-    }
-    .th {
-        .td {
-            color: var(--gray-550);
-            font-weight: bold;
-            vertical-align: bottom;
-            white-space: nowrap;
-            > * {
-                display: flex;
-                justify-content: center;
-                align-items: flex-end;
-                padding: 0.5rem 1rem;
-            }
-            &:first-of-type {
-                border-left: 1rem solid transparent;
-                @include media-breakpoint-up(lg) {
-                    border-left: 1.5rem solid transparent;
-                    > * {
-                        padding-left: 1.5rem;
-                    }
-                }
-            }
-            &:last-of-type {
-                border-right: 1rem solid transparent;
-                @include media-breakpoint-up(lg) {
-                    border-right: 1.5rem solid transparent;
-                    > * {
-                        padding-right: 1.5rem;
-                    }
-                }
-            }
-        }
-    }
-    .tr {
-        .td {
-            background: var(--gray-850);
-            vertical-align: middle;
-            > * {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                padding: 1rem 1rem;
-            }
-            &:first-of-type {
-                border-left: 1rem solid var(--gray-850);
-                > * {
-                    border-radius: var(--border-radius) 0 0 var(--border-radius);
-                }
-                @include media-breakpoint-up(lg) {
-                    border-left: 1.5rem solid var(--gray-850);
-                    > * {
-                        padding-left: 1.5rem;
-                    }
-                }
-            }
-            &:last-of-type {
-                border-right: 1rem solid var(--gray-850);
-                > * {
-                    border-radius: 0 var(--border-radius) var(--border-radius) 0;
-                }
-                @include media-breakpoint-up(lg) {
-                    border-right: 1.5rem solid var(--gray-850);
-                    > * {
-                        padding-right: 1.5rem;
-                    }
-                }
-            }
-        }
-        &:nth-child(even) .td > * {
-            background: var(--gray-950);
-        }
-        &:first-of-type {
-            .td {
-                &:first-of-type {
-                    border-start-start-radius: var(--border-radius);
-                }
-                &:last-of-type {
-                    border-start-end-radius: var(--border-radius);
-                }
-            }
-        }
-        &:last-of-type {
-            .td {
-                &:first-of-type {
-                    border-end-start-radius: var(--border-radius);
-                }
-                &:last-of-type {
-                    border-end-end-radius: var(--border-radius);
-                }
-            }
-        }
-    }
-
-    .td > {
-        .avatar {
-            img {
-                @include border-radius($border-radius-pill);
-                width: 65px;
-                height: 65px;
-                overflow: hidden;
-            }
-        }
-        .name {
-            justify-content: flex-start;
-        }
-        .flag {
-            img {
-                @include border-radius($border-radius-pill);
-                width: 35px;
-                height: 35px;
-                overflow: hidden;
-                + img {
-                    margin-left: 0.25rem;
-                }
-            }
-        }
-        .fractions {
-            sup,
-            sub {
-                @include font-size(1.5rem);
-            }
-            sup {
-                margin-block-start: -0.25rem;
-                margin-inline-end: -1.125rem;
-            }
-            sub {
-                margin-block-end: -1rem;
-                margin-inline-start: -1rem;
-                // margin-inline-end: -0.75rem;
-            }
-            hr {
-                width: 2.5rem;
-                height: 2px;
-                opacity: 1;
-                transform: rotate(-45deg);
-            }
-        }
-        .completion {
-            position: relative;
-            &:before {
-                content: "";
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                border: 3px solid var(--completion-color);
-                border-radius: 1.125rem;
-                width: 3.5rem;
-                height: 3.5rem;
-                transform: translate(-50%, -50%) rotate(45deg);
-            }
-        }
-        .status {
-            &:before {
-                content: "";
-                display: block;
-                @include border-radius($border-radius-pill);
-                width: 1.25rem;
-                height: 1.25rem;
-                background: var(--status-color);
-            }
-        }
-        .time {
-            justify-content: flex-start;
-            &::before {
-                $icon-color: $white;
-                $icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#{$icon-color}'><path d='M0 0h24v24H0V0z' fill='none'/><path d='M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z'/></svg>");
-                content: escape-svg($icon);
-                margin-inline-end: 0.5rem;
-                width: 1.5rem;
-                height: 1.5rem;
-            }
-        }
-    }
-}
-
 .table {
     --border-radius: 1rem;
-    @include font-size(1.125rem);
+    // @include font-size(1.125rem);
     font-weight: var(--fw-semibold);
     border-spacing: 0;
     border-collapse: separate;
@@ -467,6 +274,7 @@ div.table {
             @include border-radius($border-radius-pill);
             width: 65px;
             height: 65px;
+            object-fit: cover;
             overflow: hidden;
         }
     }
@@ -481,7 +289,7 @@ div.table {
             height: 35px;
             overflow: hidden;
             + img {
-                margin-left: 0.25rem;
+                margin-left: 0.5rem;
             }
         }
     }
