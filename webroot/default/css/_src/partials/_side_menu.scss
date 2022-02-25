@@ -70,7 +70,7 @@
         }
         &.active {
             background: var(--primary);
-            font-weight: bold;
+            font-weight: var(--fw-medium);
         }
         &:is(.active, :hover) {
             color: var(--white);
