@@ -8,7 +8,7 @@
 
     <?php include 'elements/top_bar.php' ?>
 
-    <div class="container-fluid pt-4 px-sm-8 overflow-hidden">
+    <div class="container-fluid pt-8 px-sm-8 overflow-hidden">
         <form class="row g-4 g-lg-8 align-items-end mb-8">
             <div class="col-sm-6 col-xl-3">
                 <input type="email" class="form-control" id="inputEmail4">
@@ -28,10 +28,9 @@
                 </button>
             </div>
         </form>
-        <div class="pb-16">
+        <div class="pb-14">
             <div>20 players</div>
             <div>No Players have been have been added yet</div>
-
             <div class="table-responsive">
                 <table class="table ">
                     <thead>
@@ -49,6 +48,7 @@
                         </tr>
                     </thead>
                     <tbody>
+                        <!-- display a minimum of 5 rows. always display odd number of tr  -->
                         <tr>
                             <td><div class="avatar"><img src="../files/Players/Williams_Trent.png"></div></td>
                             <td><div class="name">Trent Williams</div></td>
