@@ -91,13 +91,13 @@
 
 .team-short {
     @include font-size(1.125rem);
-    font-weight: bold;
     @include media-breakpoint-up(lg) {
-        max-width: 220px;
+        max-width: 240px;
     }
     .heading {
         text-align: center;
         margin-block-end: 0.5rem;
+        font-weight: var(--fw-semibold);
     }
     .image {
         display: inline-flex;
@@ -118,6 +118,7 @@
         }
     }
     ul {
+        font-weight: var(--fw-semibold);
         li {
             display: flex;
             justify-content: space-between;
@@ -128,6 +129,8 @@
         }
         .score {
             margin-inline-start: 1rem;
+            font-size: 1.5rem;
+            font-weight: var(--fw-bold);
         }
     }
 }
@@ -240,7 +243,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                padding: 1rem 1rem;
+                padding: 1.75rem 1rem;
+                min-height: 7.5625rem;
             }
             &:first-of-type {
                 border-left: 1rem solid var(--gray-850);
@@ -281,6 +285,16 @@
     .name {
         justify-content: flex-start;
         white-space: nowrap;
+    }
+    .title {
+        justify-content: flex-start;
+        text-align: start;
+        min-width: 200px;
+    }
+    .dsc {
+        justify-content: flex-start;
+        text-align: start;
+        min-width: 200px;
     }
     .flag {
         img {
@@ -349,5 +363,8 @@
             width: 1.5rem;
             height: 1.5rem;
         }
+    }
+    .btn + .btn {
+        margin-left: 0.5rem;
     }
 }

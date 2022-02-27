@@ -8,16 +8,20 @@
 
     <?php include 'elements/top_bar.php' ?>
 
-    <div class="container-fluid pt-4 px-sm-8 overflow-hidden">
+    <div class="container-fluid pt-8 px-sm-8 overflow-hidden">
         <div class="row g-4 align-items-center mb-8">
-            <div class="col-auto me-auto">
+            <div class="col-auto">
                 <h1 class="fw-bold mb-0 me-4">Dashboard</h1>
             </div>
             <div class="col-auto ms-auto">
-                <button class="btn btn-gray-550 btn-lg">
-                    <span class="me-auto">See full list</span>
-                    <svg class="icon ms-3" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/></svg>
-                </button>
+                <div class="row gy-2 gx-6">
+                    <div class="col-auto">
+                        <button class="btn btn-gray-550 btn-lg">
+                            <span class="me-auto">See full list</span>
+                            <svg class="icon ms-3" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/></svg>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row g-10 gx-xxl-30 pb-16">

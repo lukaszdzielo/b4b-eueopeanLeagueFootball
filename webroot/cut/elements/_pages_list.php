@@ -7,6 +7,7 @@
     <ul>
         <li><a href="index.php">GG8-59 Dashboard</a></li>
         <li><a href="page-PlayerLicensingList.php">GG8-53 Player Licensing List</a></li>
+        <li><a href="page-NotificationList.php">GG8-58 Notification List</a></li>
     </ul>
 </div>
 
