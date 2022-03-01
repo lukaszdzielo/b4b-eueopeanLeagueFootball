@@ -8,7 +8,7 @@
 
 <div class="mt-8">
     <div class="container-fluid px-sm-8 d-flex align-items-center">
-        <button class="btn btn-menu d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#side_menu" aria-controls="offcanvasExample">
+        <button class="btn btn-menu d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#side_menu" aria-controls="quickViewProfile">
             <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
         </button>
         <button class="btn btn-outline-white btn-sm btn-back d-none d-lg-flex" type="button">
@@ -132,7 +132,7 @@
                         <td><div class="dsc">Scott added Player Jed Murray to be approved</div></td>
                         <td><div class="time">2 hrs ago</div></td>
                         <td><div>
-                            <button class="btn btn-icon">
+                            <button class="btn btn-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#quickViewProfile">
                                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"/></svg>
                                 <!-- <span class="badge left">4</span> -->
                             </button>
@@ -147,7 +147,7 @@
                         <td><div class="dsc">Scott added Player Jed Murray to be approved</div></td>
                         <td><div class="time">2 hrs ago</div></td>
                         <td><div>
-                            <button class="btn btn-icon">
+                            <button class="btn btn-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#quickViewProfile">
                                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"/></svg>
                                 <!-- <span class="badge left">4</span> -->
                             </button>
@@ -217,6 +217,8 @@
 </div>
 
 </main>
+
+<?php include 'elements/quickViewProfile.php' ?>
 
 <?php include 'elements/_footer_scripts.php' ?>
 

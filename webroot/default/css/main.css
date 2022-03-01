@@ -84,6 +84,7 @@
   --secondary: #c80b12;
   --tertiary: #1ca051;
   --quaternary: #eb5757;
+  --error: #eb5757;
   --quinary: #F2994A;
   --white: #fff;
   --gray-550: #828282;
@@ -91,6 +92,7 @@
   --secondary-rgb: 200, 11, 18;
   --tertiary-rgb: 28, 160, 81;
   --quaternary-rgb: 235, 87, 87;
+  --error-rgb: 235, 87, 87;
   --quinary-rgb: 242, 153, 74;
   --white-rgb: 255, 255, 255;
   --gray-550-rgb: 130, 130, 130;
@@ -3003,6 +3005,34 @@ textarea.form-control-lg {
     background-color: #eb5757;
     border-color: #eb5757; }
 
+.btn-error {
+  color: #000;
+  background-color: #eb5757;
+  border-color: #eb5757; }
+  .btn-error:hover {
+    color: #000;
+    background-color: #ee7070;
+    border-color: #ed6868; }
+  .btn-check:focus + .btn-error, .btn-error:focus {
+    color: #000;
+    background-color: #ee7070;
+    border-color: #ed6868;
+    box-shadow: 0 0 0 none rgba(200, 74, 74, 0.5); }
+  .btn-check:checked + .btn-error,
+  .btn-check:active + .btn-error, .btn-error:active, .btn-error.active,
+  .show > .btn-error.dropdown-toggle {
+    color: #000;
+    background-color: #ef7979;
+    border-color: #ed6868; }
+    .btn-check:checked + .btn-error:focus,
+    .btn-check:active + .btn-error:focus, .btn-error:active:focus, .btn-error.active:focus,
+    .show > .btn-error.dropdown-toggle:focus {
+      box-shadow: 0 0 0 none rgba(200, 74, 74, 0.5); }
+  .btn-error:disabled, .btn-error.disabled {
+    color: #000;
+    background-color: #eb5757;
+    border-color: #eb5757; }
+
 .btn-quinary {
   color: #000;
   background-color: #F2994A;
@@ -3168,6 +3198,27 @@ textarea.form-control-lg {
     .btn-check:active + .btn-outline-quaternary:focus, .btn-outline-quaternary:active:focus, .btn-outline-quaternary.active:focus, .btn-outline-quaternary.dropdown-toggle.show:focus {
       box-shadow: 0 0 0 none rgba(235, 87, 87, 0.5); }
   .btn-outline-quaternary:disabled, .btn-outline-quaternary.disabled {
+    color: #eb5757;
+    background-color: transparent; }
+
+.btn-outline-error {
+  color: #eb5757;
+  border-color: #eb5757; }
+  .btn-outline-error:hover {
+    color: #000;
+    background-color: #eb5757;
+    border-color: #eb5757; }
+  .btn-check:focus + .btn-outline-error, .btn-outline-error:focus {
+    box-shadow: 0 0 0 none rgba(235, 87, 87, 0.5); }
+  .btn-check:checked + .btn-outline-error,
+  .btn-check:active + .btn-outline-error, .btn-outline-error:active, .btn-outline-error.active, .btn-outline-error.dropdown-toggle.show {
+    color: #000;
+    background-color: #eb5757;
+    border-color: #eb5757; }
+    .btn-check:checked + .btn-outline-error:focus,
+    .btn-check:active + .btn-outline-error:focus, .btn-outline-error:active:focus, .btn-outline-error.active:focus, .btn-outline-error.dropdown-toggle.show:focus {
+      box-shadow: 0 0 0 none rgba(235, 87, 87, 0.5); }
+  .btn-outline-error:disabled, .btn-outline-error.disabled {
     color: #eb5757;
     background-color: transparent; }
 
@@ -4255,6 +4306,11 @@ textarea.form-control-lg {
   .link-quaternary:hover, .link-quaternary:focus {
     color: #ef7979; }
 
+.link-error {
+  color: #eb5757; }
+  .link-error:hover, .link-error:focus {
+    color: #ef7979; }
+
 .link-quinary {
   color: #F2994A; }
   .link-quinary:hover, .link-quinary:focus {
@@ -4594,6 +4650,9 @@ textarea.form-control-lg {
   border-color: #1ca051 !important; }
 
 .border-quaternary {
+  border-color: #eb5757 !important; }
+
+.border-error {
   border-color: #eb5757 !important; }
 
 .border-quinary {
@@ -6056,6 +6115,10 @@ textarea.form-control-lg {
   --text-opacity: 1;
   color: rgba(var(--quaternary-rgb), var(--text-opacity)) !important; }
 
+.text-error {
+  --text-opacity: 1;
+  color: rgba(var(--error-rgb), var(--text-opacity)) !important; }
+
 .text-quinary {
   --text-opacity: 1;
   color: rgba(var(--quinary-rgb), var(--text-opacity)) !important; }
@@ -6119,6 +6182,10 @@ textarea.form-control-lg {
 .bg-quaternary {
   --bg-opacity: 1;
   background-color: rgba(var(--quaternary-rgb), var(--bg-opacity)) !important; }
+
+.bg-error {
+  --bg-opacity: 1;
+  background-color: rgba(var(--error-rgb), var(--bg-opacity)) !important; }
 
 .bg-quinary {
   --bg-opacity: 1;
@@ -11075,12 +11142,8 @@ textarea.form-control-lg {
           .table tbody td:last-of-type > * {
             padding-right: 1.5rem; } }
   .table .avatar img {
-    border-radius: 50rem;
     width: 65px;
-    height: 65px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    overflow: hidden; }
+    height: 65px; }
   .table .name {
     justify-content: flex-start;
     white-space: nowrap; }
@@ -11092,13 +11155,6 @@ textarea.form-control-lg {
     justify-content: flex-start;
     text-align: start;
     min-width: 200px; }
-  .table .flag img {
-    border-radius: 50rem;
-    width: 35px;
-    height: 35px;
-    overflow: hidden; }
-    .table .flag img + img {
-      margin-left: 0.5rem; }
   .table .fractions sup,
   .table .fractions sub {
     font-size: calc(1.275rem + 0.3vw); }
@@ -11121,18 +11177,6 @@ textarea.form-control-lg {
     height: 2px;
     opacity: 1;
     transform: rotate(-45deg); }
-  .table .completion {
-    position: relative; }
-    .table .completion:before {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      border: 3px solid var(--completion-color);
-      border-radius: 1.125rem;
-      width: 3.5rem;
-      height: 3.5rem;
-      transform: translate(-50%, -50%) rotate(45deg); }
   .table .status:before {
     content: "";
     display: block;
@@ -11151,6 +11195,137 @@ textarea.form-control-lg {
       height: 1.5rem; }
   .table .btn + .btn {
     margin-left: 0.5rem; }
+
+.avatar img {
+  border-radius: 50rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden; }
+
+.flag {
+  display: flex;
+  align-items: center;
+  font-weight: var(--fw-bold);
+  color: var(--white); }
+  .flag img {
+    flex: 0 0 auto;
+    border-radius: 50rem;
+    width: 35px;
+    height: 35px;
+    overflow: hidden; }
+    .flag img + img {
+      margin-left: 0.5rem; }
+
+.completion {
+  display: inline-flex;
+  position: relative;
+  color: var(--white); }
+  .completion:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 3px solid var(--completion-color);
+    border-radius: 1.125rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    transform: translate(-50%, -50%) rotate(45deg); }
+
+.offcanvas-profile {
+  width: 750px;
+  background: var(--gray-950); }
+  .offcanvas-profile .offcanvas-header {
+    position: static;
+    padding: 1.5rem; }
+  .offcanvas-profile .offcanvas-body {
+    padding: 0 1.5rem 1.5rem; }
+  .offcanvas-profile .avatar {
+    text-align: center; }
+    .offcanvas-profile .avatar img {
+      width: 220px;
+      height: 220px; }
+  .offcanvas-profile .h1 {
+    margin: 0; }
+  .offcanvas-profile li {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #828282;
+    font-weight: var(--fw-bold); }
+    .offcanvas-profile li + li {
+      margin-top: 1.5rem; }
+  .offcanvas-profile .completion {
+    padding: 0 1rem; }
+  .offcanvas-profile .icon {
+    fill: var(--white); }
+  .offcanvas-profile .list {
+    border-radius: 1.25rem;
+    padding: 1.5rem;
+    background: var(--gray-850); }
+    .offcanvas-profile .list .head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      -webkit-padding-after: 1.5rem;
+              padding-block-end: 1.5rem;
+      -webkit-margin-after: 1.5rem;
+              margin-block-end: 1.5rem;
+      border-bottom: 1px solid #828282; }
+      .offcanvas-profile .list .head .btn {
+        align-items: center;
+        justify-content: center;
+        padding: 0.25rem 1rem;
+        min-width: 140px;
+        text-align: center; }
+    .offcanvas-profile .list .item {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      font-weight: var(--fw-semibold); }
+      .offcanvas-profile .list .item + .item {
+        margin-top: 1.5rem; }
+      .offcanvas-profile .list .item.add .btn-icon {
+        background: var(--white); }
+      .offcanvas-profile .list .item.add .icon {
+        fill: var(--primary); }
+    .offcanvas-profile .list .image {
+      position: relative;
+      flex: 0 0 auto;
+      -webkit-margin-start: 1rem;
+              margin-inline-start: 1rem;
+      width: 3rem;
+      height: 3rem; }
+      .offcanvas-profile .list .image img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: contain;
+           object-fit: contain; }
+      .offcanvas-profile .list .image .btn-clear {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(25%, -25%); }
+  .offcanvas-profile .content {
+    align-self: center; }
+  .offcanvas-profile .file {
+    display: flex;
+    align-items: center;
+    -webkit-margin-before: 0.25rem;
+            margin-block-start: 0.25rem;
+    font-style: italic;
+    text-decoration: underline;
+    color: var(--primary); }
+    .offcanvas-profile .file .icon {
+      -webkit-margin-end: 0.25rem;
+              margin-inline-end: 0.25rem;
+      width: 1.25rem;
+      height: 1.25rem;
+      fill: var(--primary); }
+  .offcanvas-profile .text-error {
+    -webkit-margin-before: 0.5rem;
+            margin-block-start: 0.5rem;
+    font-style: italic;
+    line-height: 1.2; }
 
 @media (min-width: 992px) {
   .side_menu {
@@ -11254,11 +11429,11 @@ textarea.form-control-lg {
     flex: 0 0 auto; }
   .btn-lg {
     min-width: 200px; }
-  .btn-gray-550 {
+  .btn-primary, .btn-tertiary, .btn-quaternary, .btn-quinary, .btn-gray-550 {
     color: var(--white); }
-    .btn-gray-550 .icon {
+    .btn-primary .icon, .btn-tertiary .icon, .btn-quaternary .icon, .btn-quinary .icon, .btn-gray-550 .icon {
       fill: var(--white); }
-    .btn-gray-550:is(:hover, :focus, :active) {
+    .btn-primary:is(:hover, :focus, :active), .btn-tertiary:is(:hover, :focus, :active), .btn-quaternary:is(:hover, :focus, :active), .btn-quinary:is(:hover, :focus, :active), .btn-gray-550:is(:hover, :focus, :active) {
       color: var(--white); }
 
 .btn-close {
@@ -11319,7 +11494,17 @@ textarea.form-control-lg {
 .btn-clear {
   background: unset; }
   .btn-clear .icon {
-    fill: rgba(var(--quaternary-rgb), 1); }
+    fill: var(--quaternary); }
+  .image .btn-clear {
+    margin: 0;
+    padding: .25rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: var(--quaternary); }
+    .image .btn-clear .icon {
+      width: 100%;
+      height: 100%;
+      fill: var(--white); }
 
 .btn-user {
   display: inline-flex;
