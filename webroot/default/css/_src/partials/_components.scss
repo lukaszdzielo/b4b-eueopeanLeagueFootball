@@ -129,7 +129,7 @@
         }
         .score {
             margin-inline-start: 1rem;
-            font-size: 1.5rem;
+            @include font-size(1.5rem);
             font-weight: var(--fw-bold);
         }
     }
@@ -477,23 +477,21 @@
     .content {
         align-self: center;
     }
-    .file {
-        display: flex;
-        align-items: center;
-        margin-block-start: 0.25rem;
-        font-style: italic;
-        text-decoration: underline;
-        color: var(--primary);
-        .icon {
-            margin-inline-end: 0.25rem;
-            width: 1.25rem;
-            height: 1.25rem;
-            fill: var(--primary);
-        }
-    }
     .text-error {
         margin-block-start: 0.5rem;
         font-style: italic;
         line-height: 1.2;
+    }
+}
+
+.modal-file {
+    .modal-content {
+        border: 0;
+        border-radius: 0;
+        background-color: $gray-950;
+    }
+    .modal-title {
+        @include font-size(1.5rem);
+        font-style: italic;
     }
 }

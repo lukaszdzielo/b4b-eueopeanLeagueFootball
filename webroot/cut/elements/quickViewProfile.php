@@ -77,10 +77,10 @@
             <div class="item">
                 <div class="content">
                     <div class="h6">Signed PlayerCard (by Player and GM) wit Player Photo *</div>
-                    <a href="#" class="file small">
+                    <button class="btn btn-file" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M8 16h8v2H8zm0-4h8v2H8zm6-10H6c-1.1 0-2 .9-2 2v16c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
-                        <div class="text">filename.pdf</div>
-                    </a>
+                        <span class="text">filename.pdf</span>
+                    </button>
                     <div class="small text-error">Latest note: You have uploaded the wrong document</div>
                 </div>
                 <div class="image">
@@ -93,10 +93,10 @@
             <div class="item">
                 <div class="content">
                     <div class="h6">Signed PlayerCard (by Player and GM) wit Player Photo *</div>
-                    <a href="#" class="file">
+                    <button class="btn btn-file" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M8 16h8v2H8zm0-4h8v2H8zm6-10H6c-1.1 0-2 .9-2 2v16c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
-                        <small class="text">filename.pdf</small>
-                    </a>
+                        <span class="text">filename.pdf</span>
+                    </button>
                 </div>
                 <div class="image">
                     <img src="../files/teams/istanbul_rams.svg" alt="#">
