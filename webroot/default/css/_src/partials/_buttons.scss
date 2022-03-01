@@ -7,6 +7,10 @@
     &-lg {
         min-width: 200px;
     }
+    &-primary,
+    &-tertiary,
+    &-quaternary,
+    &-quinary,
     &-gray-550 {
         color: var(--white);
         .icon {
@@ -85,7 +89,19 @@
 .btn-clear {
     background: unset;
     .icon {
-        fill: rgba(var(--quaternary-rgb), 1);
+        fill: var(--quaternary);
+    }
+    .image & {
+        margin: 0;
+        padding: .25rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        background: var(--quaternary);
+        .icon {
+            width: 100%;
+            height: 100%;
+            fill: var(--white);
+        }
     }
 }
 
