@@ -180,6 +180,8 @@
 
 <?php include 'elements/quickViewProfile.php' ?>
 
+<?php include 'elements/fileModal.php' ?>
+
 <?php include 'elements/_footer_scripts.php' ?>
 
 <?php include 'elements/_html_end.php' ?>
