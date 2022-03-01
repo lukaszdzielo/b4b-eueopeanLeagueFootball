@@ -45,26 +45,30 @@
             </div>
         </div>
         <div class="list mt-4">
-            <div class="head">
-                <div class="h2 m-0">Player license documentation</div>
-                <!-- <button class="btn btn-sm btn-tertiary">
-                    <span>Submit</span>
-                </button> -->
-                <!-- <button class="btn btn-sm btn-gray-550" disabled>
-                    <span>Submit</span>
-                </button> -->
-                <!-- <button class="btn btn-sm btn-quinary">
-                    <span class="me-auto">Pending</span>
-                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M12 5.99L19.53 19H4.47L12 5.99M12 2L1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z"/></svg>
-                </button> -->
-                <!-- <button class="btn btn-sm btn-tertiary">
-                    <span class="me-auto">Approved</span>
-                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
-                </button> -->
-                <button class="btn btn-sm btn-quaternary">
-                    <span class="me-auto">Rejected</span>
-                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-                </button>
+            <div class="head row gx-4 gy-2 justify-content-between align-items-center flex-wrap">
+                <div class="col-auto">
+                    <div class="h2 m-0">Player license documentation</div>
+                </div>
+                <div class="col-auto">
+                    <!-- <button class="btn btn-sm btn-tertiary">
+                        <span>Submit</span>
+                    </button> -->
+                    <!-- <button class="btn btn-sm btn-gray-550" disabled>
+                        <span>Submit</span>
+                    </button> -->
+                    <!-- <button class="btn btn-sm btn-quinary">
+                        <span class="me-auto">Pending</span>
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M12 5.99L19.53 19H4.47L12 5.99M12 2L1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z"/></svg>
+                    </button> -->
+                    <!-- <button class="btn btn-sm btn-tertiary">
+                        <span class="me-auto">Approved</span>
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
+                    </button> -->
+                    <button class="btn btn-sm btn-quaternary">
+                        <span class="me-auto">Rejected</span>
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+                    </button>
+                </div>
             </div>
             <div class="item add">
                 <div class="content">
