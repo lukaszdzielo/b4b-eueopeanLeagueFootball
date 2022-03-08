@@ -181,3 +181,40 @@
         margin-inline-start: 0.25rem;
     }
 }
+
+.btn-upload {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.btn-collapse {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    .form-check-input {
+        margin: 0;
+        margin-inline-start: 0.5rem;
+        border: 0;
+        @include border-radius($border-radius-pill);
+        padding: 0;
+        float: none;
+
+        $form-select-indicator-color: $white;
+        $form-select-indicator: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='#{$form-select-indicator-color}'><path d='M0 0h24v24H0z' fill='none'/><path d='M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z'/></svg>");
+        background-color: $tertiary;
+        background-image: escape-svg($form-select-indicator);
+        color: $pagination-color;
+    }
+    .form-check-input:checked[type="checkbox"] {
+        $form-select-indicator-color: $white;
+        $form-select-indicator: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='#{$form-select-indicator-color}'><path d='M0 0h24v24H0V0z' fill='none'/><path d='M19 13H5v-2h14v2z'/></svg>");
+        background-color: $quaternary;
+        background-image: escape-svg($form-select-indicator);
+        color: $pagination-color;
+    }
+    label {
+        cursor: pointer;
+    }
+}

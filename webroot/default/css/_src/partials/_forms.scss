@@ -1,0 +1,42 @@
+.search {
+    &.input-group {
+        > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+            margin-left: 0;
+            border-left: 0;
+        }
+    }
+
+    .input-group-text {
+        border-inline-end: 0;
+        padding-inline-end: 0;
+        background-color: unset;
+        cursor: text;
+    }
+    .icon {
+        fill: var(--gray-550);
+    }
+}
+
+.form-control {
+    outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px var(--gray-950) inset !important;
+    -webkit-text-fill-color: var(--white) !important;
+}
+
+select:invalid {
+    color: var(--gray-550);
+}
+
+.form-select {
+    $form-select-indicator-color: $white;
+    $form-select-indicator: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='#{$form-select-indicator-color}' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/></svg>");
+    background-image: escape-svg($form-select-indicator);
+    // background-size: 1.125rem;
+    color: $pagination-color;
+}

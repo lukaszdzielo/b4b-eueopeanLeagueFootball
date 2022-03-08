@@ -9,28 +9,192 @@
     <?php include 'elements/top_bar.php' ?>
 
     <div class="container-fluid pt-8 px-sm-8 overflow-hidden">
-        <form class="row g-4 g-lg-8 align-items-end mb-8">
-            <div class="col-sm-6 col-xl-3">
-                <input type="email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-sm-6 col-xl-3">
-                <label for="inputEmail4" class="form-label">License status</label>
-                <input type="email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-sm-6 col-xl-3">
-                <label for="inputEmail4" class="form-label">Position</label>
-                <input type="email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-auto ms-auto">
-                <button class="btn btn-gray-550 btn-lg">
-                    <span class="me-auto">See full list</span>
-                    <svg class="icon ms-3" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/></svg>
-                </button>
+        <form>
+            <div class="accordion mb-4" id="accordionExample">
+                <div id="collapseAddNewPlayer" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="row g-8">
+                        <div class="col-sm-auto">
+                            <div class="avatar upload">
+                                <!-- <img src="../files/Players/Williams_Trent.png"> -->
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+                                <button class="btn btn-upload"><svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 7v2.99s-1.99.01-2 0V7h-3s.01-1.99 0-2h3V2h2v3h3v2h-3zm-3 4V8h-3V5H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-8h-3zM5 19l3-4 2 3 3-4 4 5H5z"/></svg></button>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row g-4 gx-lg-8">
+                                <div class="col-md-6 col-xl-4 col-xxl-3">
+                                    <label for="firstName" class="form-label">First Name*</label>
+                                    <input type="email" class="form-control" id="firstName" placeholder="First Name">
+                                </div>
+                                <div class="col-md-6 col-xl-4 col-xxl-3">
+                                    <label for="lastName" class="form-label">Last Name*</label>
+                                    <input type="email" class="form-control" id="lastName" placeholder="Last Name">
+                                </div>
+                                <div class="col-md-6 col-xl-4 col-xxl-3">
+                                    <label for="position" class="form-label">Position*</label>
+                                    <input type="email" class="form-control" id="position" placeholder="Last Name">
+                                </div>
+                                <div class="col-md-6 col-xl-4 col-xxl-3">
+                                    <label for="position" class="form-label">Position*</label>
+                                    <input type="email" class="form-control" id="position" placeholder="Last Name">
+                                </div>
+                                <div class="col-md-6 col-xl-4 col-xxl-3">
+                                    <label for="position" class="form-label">Position*</label>
+                                    <input type="email" class="form-control" id="position" placeholder="Last Name">
+                                </div>
+                                <div class="col-md-6 col-xl-4 col-xxl-3">
+                                    <label for="position" class="form-label">Position*</label>
+                                    <input type="email" class="form-control" id="position" placeholder="Last Name">
+                                </div>
+                                <div class="col-md-6 col-xl-4 col-xxl-3">
+                                    <label for="position" class="form-label">Position*</label>
+                                    <input type="email" class="form-control" id="position" placeholder="Last Name">
+                                </div>
+                                <div class="col-md-6 col-xl-4 col-xxl-3">
+                                    <label for="position" class="form-label">Position*</label>
+                                    <input type="email" class="form-control" id="position" placeholder="Last Name">
+                                </div>
+
+                                <div class="col-12 mt-12">
+                                    <div class="form-check btn-collapse">
+                                        <label class="form-check-label" for="additionalFieldsLabel">Additional fields</label>
+                                        <input class="form-check-input collapsed" type="checkbox" data-bs-toggle="collapse" data-bs-target="#additionalFields" id="additionalFieldsLabel">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div id="additionalFields" class="collapse">
+                                        <div class="row g-4 gx-8">
+                                            <div class="col-auto">
+                                                <label for="covidStatus" class="form-label">Covid-19 Status</label>
+                                                <select id="covidStatus" class="form-select" aria-label="Default select example">
+                                                    <option selected>Open this select menu</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-auto">
+                                                <label for="footballExperience" class="form-label">First Football Experience</label>
+                                                <select id="footballExperience" class="form-select" aria-label="Default select example">
+                                                    <option selected>Open this select menu</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-auto">
+                                                <label for="covidStatus" class="form-label">Jersey Number</label>
+                                                <input type="text" id="covidStatus" class="form-control">
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="row g-3">
+                                                    <div class="col-auto">
+                                                        <label for="weight" class="form-label">Weight</label>
+                                                        <input type="text" id="weight" class="form-control" style="width: 160px;">
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <label class="form-label d-none d-sm-block">&nbsp;</label>
+                                                        <select id="footballExperience" class="form-select w-auto">
+                                                            <option selected>kg</option>
+                                                            <option value="1">kg</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="row g-3">
+                                                    <div class="col-auto">
+                                                        <label for="height" class="form-label">Height</label>
+                                                        <input type="text" id="height" class="form-control" style="width: 160px;">
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <label class="form-label d-none d-sm-block">&nbsp;</label>
+                                                        <select id="footballExperience" class="form-select w-auto">
+                                                            <option selected>cm</option>
+                                                            <option value="1">cm</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <label for="salaryCapCategory" class="form-label">Salary Cap Category</label>
+                                                <select id="salaryCapCategory" class="form-select" aria-label="Default select example">
+                                                    <option selected>Open this select menu</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 ms-auto">
+                            <div class="row justify-content-end align-items-end g-4">
+                                <div class="col-auto">
+                                    <button class="btn btn-quaternary btn-lg justify-content-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Cancel</button>
+                                </div>
+                                <div class="col-auto">
+                                    <button class="btn btn-tertiary btn-lg justify-content-center" type="button">Add player</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="row g-4 gx-lg-8">
+                        <div class="col-sm-6 col-xl-4 col-xxl-3">
+                            <label class="form-label d-none d-sm-block">&nbsp;</label>
+                            <div class="search input-group">
+                                <label class="input-group-text" id="basic-addon1" for="searchPlayer">
+                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                                </label>
+                                <input type="text" id="searchPlayer" class="form-control" placeholder="Search for a player">
+                            </div>
+                            <!-- <label class="form-label d-none d-sm-block">&nbsp;</label>
+                            <input type="email" class="form-control" id="search"> -->
+                        </div>
+                        <div class="col-sm-6 col-xl-4 col-xxl-3">
+                            <label for="licenseStatus" class="form-label">License status</label>
+                            <input type="email" class="form-control" id="licenseStatus">
+                        </div>
+                        <div class="col-sm-6 col-xl-4 col-xxl-3">
+                            <label for="position" class="form-label">Position</label>
+                            <input type="email" class="form-control" id="position">
+                        </div>
+                        <div class="col-sm-6 col-xl-4 col-xxl-3 ms-auto">
+                            <div class="row justify-content-end align-items-end g-4">
+                                <div class="col-12 d-none d-sm-block d-xl-none d-xxl-block m-0">
+                                    <label class="form-label">&nbsp;</label>
+                                </div>
+                                <div class="col-auto">
+                                    <button class="btn btn-lg btn-tertiary justify-content-center text-center collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAddNewPlayer" aria-expanded="true" aria-controls="collapseOne">Add a new player</button>
+                                </div>
+                                <div class="col-auto">
+                                    <button class="btn btn-tertiary justify-content-center text-center collapsed" type="button">
+                                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M8 16h8v2H8zm0-4h8v2H8zm6-10H6c-1.1 0-2 .9-2 2v16c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
+                                        <span class="text ms-2">Import csv file</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </form>
         <div class="pb-14">
-            <div>20 players</div>
-            <div>No Players have been have been added yet</div>
+            <div class="row mb-4">
+                <div class="col-auto">
+                    <div class="text-gray-550 fw-bold">20 players</div>
+                    <!-- <div class="text-gray-550 fw-bold">No Players have been have been added yet</div> -->
+                </div>
+                <div class="col-auto ms-auto">
+                    <a href="#" class="btn btn-file" type="button">
+                        <span class="text">download example csv file</span>
+                    </a>
+                </div>
+            </div>
             <div class="table-responsive">
                 <table class="table ">
                     <thead>
