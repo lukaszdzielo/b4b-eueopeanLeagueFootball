@@ -92,8 +92,7 @@
                                                         <label for="weight" class="form-label">Weight</label>
                                                         <input type="text" id="weight" class="form-control" style="width: 160px;">
                                                     </div>
-                                                    <div class="col-auto">
-                                                        <label class="form-label">&nbsp;</label>
+                                                    <div class="col-auto align-self-end">
                                                         <select id="footballExperience" class="form-select w-auto">
                                                             <option selected>kg</option>
                                                             <option value="1">kg</option>
@@ -107,8 +106,7 @@
                                                         <label for="height" class="form-label">Height</label>
                                                         <input type="text" id="height" class="form-control" style="width: 160px;">
                                                     </div>
-                                                    <div class="col-auto">
-                                                        <label class="form-label">&nbsp;</label>
+                                                    <div class="col-auto align-self-end">
                                                         <select id="footballExperience" class="form-select w-auto">
                                                             <option selected>cm</option>
                                                             <option value="1">cm</option>
