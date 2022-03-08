@@ -9,7 +9,7 @@
                 </button>
             </div>
             <div class="modal-body p-0">
-                <img src="https://via.placeholder.com/2480x3508" alt="" class="img-fluid">
+                <img src="https://via.placeholder.com/620x877" alt="" class="img-fluid">
             </div>
         </div>
     </div>

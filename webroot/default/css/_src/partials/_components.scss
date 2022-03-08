@@ -146,14 +146,13 @@
         font-weight: bold;
     }
     .form-select {
-        // padding: $pagination-padding-y $pagination-padding-x;
         border-width: $pagination-border-width;
         padding: $pagination-padding-y $form-select-indicator-padding
             $pagination-padding-y $form-select-padding-x;
-        $form-select-indicator-color: $white;
-        $form-select-indicator: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='#{$form-select-indicator-color}' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/></svg>");
+        padding: 0.25rem 2.25rem 0.25rem 0.75rem;
+        background-position: right 0.75rem center;
         background-color: var(--primary);
-        background-image: escape-svg($form-select-indicator);
+        background-size: 1rem 0.75rem;
         color: $pagination-color;
         @include font-size(0.875rem);
         text-align: center;
@@ -328,7 +327,7 @@
         justify-content: flex-start;
         white-space: nowrap;
         &::before {
-            $icon-color: $white;
+            $icon-color: var(--white);
             $icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#{$icon-color}'><path d='M0 0h24v24H0V0z' fill='none'/><path d='M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z'/></svg>");
             content: escape-svg($icon);
             margin-inline-end: 0.5rem;
@@ -346,6 +345,41 @@
         @include border-radius($border-radius-pill);
         object-fit: cover;
         overflow: hidden;
+    }
+    &.upload {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        @include border-radius($border-radius-pill);
+        width: 11rem;
+        height: 11rem;
+        background: $gray-200;
+        object-fit: cover;
+        text-align: center;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            overflow: hidden;
+        }
+        > .icon {
+            width: 60px;
+            height: 60px;
+        }
+        .btn-upload {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            flex: 0 0 auto;
+            @include border-radius($border-radius-pill);
+            padding: 0.5rem;
+            width: 2.75rem;
+            height: 2.75rem;
+            border: 1px solid var(--gray-950);
+            background: $gray-200;
+        }
     }
 }
 
@@ -407,7 +441,7 @@
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        color: $gray-550;
+        color: var(--gray-550);
         font-weight: var(--fw-bold);
         + li {
             margin-top: 1.5rem;
@@ -426,7 +460,7 @@
         .head {
             padding-block-end: 1.5rem;
             margin-block-end: 1.5rem;
-            border-bottom: 1px solid $gray-550;
+            border-bottom: 1px solid var(--gray-550);
             .btn {
                 align-items: center;
                 justify-content: center;
@@ -485,7 +519,7 @@
     .modal-content {
         border: 0;
         border-radius: 0;
-        background-color: $gray-950;
+        background-color: var(--gray-950);
     }
     .modal-title {
         @include font-size(1.5rem);
