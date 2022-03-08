@@ -18,3 +18,13 @@ if (toastTrigger) {
     });
 }
 //
+
+// multiselect
+const multipleCancelButton = new Choices(".form-select.multiple", {
+    allowHTML: true,
+    removeItemButton: true,
+    classNames: {
+        containerOuter: "form-choices choices",
+    },
+});
+//
