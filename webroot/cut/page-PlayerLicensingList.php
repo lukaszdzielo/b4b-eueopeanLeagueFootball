@@ -43,8 +43,8 @@
                                     <input type="email" class="form-control" id="position" placeholder="Last Name">
                                 </div>
                                 <div class="col-md-6 col-xl-4 col-xxl-3">
-                                    <label for="position" class="form-label">Position*</label>
-                                    <input type="email" class="form-control" id="position" placeholder="Last Name">
+                                    <label class="form-label d-none d-md-block">&nbsp;</label>
+                                    x
                                 </div>
                                 <div class="col-md-6 col-xl-4 col-xxl-3">
                                     <label for="position" class="form-label">Position*</label>
@@ -154,8 +154,22 @@
                             <input type="email" class="form-control" id="search"> -->
                         </div>
                         <div class="col-sm-6 col-xl-4 col-xxl-3">
-                            <label for="licenseStatus" class="form-label">License status</label>
-                            <input type="email" class="form-control" id="licenseStatus">
+                            <!-- <label for="licenseStatus" class="form-label">License status</label> -->
+                            <!-- <input type="email" class="form-control" id="licenseStatus"> -->
+
+                            <label for="choices-multiple-remove-button" class="form-label">With remove button</label>
+                            <select
+                                class="form-select multiple"
+                                id="choices-multiple-remove-button"
+                                multiple
+                            >
+                                <option value="Choice 2">All</option>
+                                <option value="Choice 3" selected>Accepted</option>
+                                <option value="Choice 3">Pending</option>
+                                <option value="Choice 3">Rejected</option>
+                                <option value="Choice 3">Not submitted</option>
+                            </select>
+
                         </div>
                         <div class="col-sm-6 col-xl-4 col-xxl-3">
                             <label for="position" class="form-label">Position</label>

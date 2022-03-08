@@ -214,7 +214,7 @@
         background-image: escape-svg($form-select-indicator);
         color: $pagination-color;
     }
-    label {
+    label, .form-check-input {
         cursor: pointer;
     }
 }

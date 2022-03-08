@@ -14,7 +14,9 @@
     <?php /* website styles */ ?>
     <link rel="stylesheet" href="../default/css/main.min.css">
 
-  </script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+
 </head>
 
 <body class="d-lg-flex flex-nowrap">

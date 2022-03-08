@@ -40,3 +40,56 @@ select:invalid {
     // background-size: 1.125rem;
     color: $pagination-color;
 }
+
+.form-choices {
+    .choices__inner {
+        display: inline-flex;
+        flex-wrap: wrap;
+        // margin: 0;
+        // border: 0;
+        border-color: $gray-400;
+        border-radius: 1.5625rem;
+        // padding: 0;
+        min-height: 50px;
+        background: unset;
+        font-size: 1rem;
+        input {
+            // margin: 0;
+            // border: 0;
+            // padding: 0;
+            background: unset;
+        }
+    }
+    &.is-open .choices__inner {
+        border-color: $gray-400;
+        border-radius: 1.5625rem 1.5625rem 0 0;
+    }
+    .choices__list--multiple .choices__item {
+        position: relative;
+        // margin: 0;
+        // border: 0;
+        border-radius: 0.625rem;
+        padding: 0 1rem;
+        padding-right: 1rem;
+        background: var(--primary);
+        font-size: 1rem;
+        font-weight: normal;
+        &[data-deletable] {
+            padding-right: 1rem;
+        }
+        .choices__button {
+            position: absolute;
+            top: -1px;
+            right: -1px;
+            margin: 0;
+            border: 0;
+            @include border-radius($border-radius-pill);
+            padding: 0;
+            width: 1rem;
+            height: 1rem;
+            background: var(--quaternary);
+            opacity: 1;
+            transform: translate(50%, -50%);
+        }
+    }
+}
