@@ -13,7 +13,9 @@
 
     <!-- website styles -->
     {{ $css := resources.Get "/css/main.scss" | toCSS | minify | fingerprint }}
-    <link href="{{ $css.RelPermalink }}" rel="stylesheet">
+    <link href="{{ $css.Permalink }}" rel="stylesheet">
+    
+    <!-- <link href="{{ $css.RelPermalink }}" rel="stylesheet"> -->
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
 
