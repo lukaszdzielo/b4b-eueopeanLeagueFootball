@@ -1,13 +1,13 @@
-<?php include 'elements/_html_start.php' ?>
+{{- partial "_html_start.html" . -}}
 
-<?php include 'elements/_head.php' ?>
+{{- partial "_head.html" . -}}
 
-<?php include 'elements/side_menu.php' ?>
+{{- partial "side-menu.html" . -}}
 
 <main>
-
-    <?php include 'elements/top_bar.php' ?>
-
+    
+    {{- partial "top-bar.html" . -}}
+    
     <div class="container-fluid pt-8 px-sm-8 overflow-hidden">
         <div class="row g-4 align-items-center mb-8">
             <div class="col-auto">
@@ -222,6 +222,6 @@
 
 </main>
 
-<?php include 'elements/_footer_scripts.php' ?>
+{{- partial "_footer_scripts.html" . -}}
 
-<?php include 'elements/_html_end.php' ?>
+{{- partial "_html_end.html" . -}}

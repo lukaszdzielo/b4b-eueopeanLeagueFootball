@@ -1,0 +1,6 @@
+{{ $bootstrap := resources.Get "lib/bootstrap/dist/js/bootstrap.bundle.js" }}
+{{ $choices := resources.Get "lib/choices/public/assets/scripts/choices.js" }}
+{{ $main := resources.Get "js/app.js" }}
+
+{{ $script := slice $bootstrap $choices $main | resources.Concat "/js/main.js" | minify | fingerprint }}
+<script defer src="{{ $script.RelPermalink }}"></script>
